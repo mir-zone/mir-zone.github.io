@@ -1,0 +1,53 @@
+I"Ê<ul class="toc__menu">
+  <li><a href="#default-layout">Default layout</a>
+    <ul>
+      <li><a href="#layout-based-and-user-defined-classes">Layout based and user-defined classes</a></li>
+      <li><a href="#canonical-url">Canonical URL</a></li>
+    </ul>
+  </li>
+  <li><a href="#compress-layout">Compress layout</a></li>
+  <li><a href="#single-layout">Single layout</a>
+    <ul>
+      <li><a href="#wide-page">Wide page</a></li>
+      <li><a href="#table-of-contents">Table of contents</a></li>
+    </ul>
+  </li>
+  <li><a href="#archive-layout">Archive layout</a>
+    <ul>
+      <li><a href="#wide-page-1">Wide page</a></li>
+      <li><a href="#grid-view">Grid view</a></li>
+    </ul>
+  </li>
+  <li><a href="#taxonomy-archives">Taxonomy archives</a>
+    <ul>
+      <li><a href="#layout-posts">layout: posts</a></li>
+      <li><a href="#layout-categories">layout: categories</a></li>
+      <li><a href="#layout-tags">layout: tags</a></li>
+      <li><a href="#layout-collection">layout: collection</a></li>
+      <li><a href="#layout-category">layout: category</a></li>
+      <li><a href="#layout-tag">layout: tag</a></li>
+    </ul>
+  </li>
+  <li><a href="#home-page-layout">Home page layout</a></li>
+  <li><a href="#splash-page-layout">Splash page layout</a></li>
+  <li><a href="#search-page-layout">Search page layout</a>
+    <ul>
+      <li><a href="#exclusions">Exclusions</a></li>
+    </ul>
+  </li>
+  <li><a href="#headers">Headers</a>
+    <ul>
+      <li><a href="#header-overlay">Header overlay</a></li>
+      <li><a href="#open-graph--twitter-card-images">Open Graph &amp; Twitter Card images</a></li>
+    </ul>
+  </li>
+  <li><a href="#sidebars">Sidebars</a>
+    <ul>
+      <li><a href="#author-profile">Author profile</a></li>
+      <li><a href="#custom-sidebar-content">Custom sidebar content</a></li>
+      <li><a href="#custom-sidebar-navigation-menu">Custom sidebar navigation menu</a></li>
+    </ul>
+  </li>
+  <li><a href="#social-sharing-links">Social sharing links</a></li>
+</ul>
+:ET

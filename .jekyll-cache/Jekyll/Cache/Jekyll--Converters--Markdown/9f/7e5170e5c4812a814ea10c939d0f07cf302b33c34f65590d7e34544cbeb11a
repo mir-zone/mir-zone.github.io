@@ -1,0 +1,49 @@
+I"@<p>Collections like posts and pages work as you’d expect. If you’re new to them be sure to read <a href="https://jekyllrb.com/docs/collections/">Jekyll’s documentation</a>.</p>
+
+<p>The theme has been built with collections in mind and you will find <a href="/collection-archive/">several examples</a> on the demo site (<a href="/portfolio/">portfolio</a>, <a href="/recipes/">recipes</a>, <a href="/pets/">pets</a>).</p>
+
+<p class="notice--info"><strong>Collections in the Wild:</strong> This set of documentation is also <a href="https://github.com/mir-zone/myblog/blob/master/docs/_docs/">built as a collection</a> if you’re looking for a fully fleshed out example to inspect.</p>
+
+<hr />
+
+<p>A popular use case for collections is to build a portfolio section as part of one’s personal site. Let’s quickly walk through the steps to do that.</p>
+
+<p><strong>Step 1:</strong> Configure the portfolio collection by adding the following to <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">collections</span><span class="pi">:</span>
+  <span class="na">portfolio</span><span class="pi">:</span>
+    <span class="na">output</span><span class="pi">:</span> <span class="no">true</span>
+    <span class="na">permalink</span><span class="pi">:</span> <span class="s">/:collection/:path/</span>
+</code></pre></div></div>
+
+<p>These settings essentially say output <code class="language-plaintext highlighter-rouge">index.html</code> files for each portfolio document in <code class="language-plaintext highlighter-rouge">_portfolio</code> at <code class="language-plaintext highlighter-rouge">_site/portfolio/&lt;document-filename&gt;/</code>.</p>
+
+<p>Just like posts and pages you’ll probably want to set some defaults for the Front Matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">defaults</span><span class="pi">:</span>
+  <span class="c1"># _portfolio</span>
+  <span class="pi">-</span> <span class="na">scope</span><span class="pi">:</span>
+      <span class="na">path</span><span class="pi">:</span> <span class="s2">"</span><span class="s">"</span>
+      <span class="na">type</span><span class="pi">:</span> <span class="s">portfolio</span>
+    <span class="na">values</span><span class="pi">:</span>
+      <span class="na">layout</span><span class="pi">:</span> <span class="s">single</span>
+      <span class="na">author_profile</span><span class="pi">:</span> <span class="no">false</span>
+      <span class="na">share</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<p>Now make a portfolio.md file in the ‘_pages’ folder.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Portfolio</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">collection</span>
+<span class="na">permalink</span><span class="pi">:</span> <span class="s">/portfolio/</span>
+<span class="na">collection</span><span class="pi">:</span> <span class="s">portfolio</span>
+<span class="na">entries_layout</span><span class="pi">:</span> <span class="s">grid</span>
+<span class="na">classes</span><span class="pi">:</span> <span class="s">wide</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<p>And then create portfolio content like <a href="https://github.com/mir-zone/myblog/blob/master/docs/_portfolio/foo-bar-website.md"><code class="language-plaintext highlighter-rouge">_portfolio/foo-bar-website.md</code></a>, to end up with something like this.</p>
+
+<p><img src="/assets/images/mm-portfolio-collection-example.jpg" alt="portfolio collection example" /></p>
+:ET

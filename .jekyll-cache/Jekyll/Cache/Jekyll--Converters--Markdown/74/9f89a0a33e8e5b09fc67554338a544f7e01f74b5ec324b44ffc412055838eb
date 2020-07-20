@@ -1,0 +1,97 @@
+I",<ul class="toc__menu">
+  <li><a href="#site-settings">Site settings</a>
+    <ul>
+      <li><a href="#theme">Theme</a></li>
+      <li><a href="#skin">Skin</a>
+        <ul>
+          <li><a href="#air-skin-air">Air skin: air</a></li>
+          <li><a href="#aqua-skin-aqua">Aqua skin: aqua</a></li>
+          <li><a href="#contrast-skin-contrast">Contrast skin: contrast</a></li>
+          <li><a href="#dark-skin-dark">Dark skin: dark</a></li>
+          <li><a href="#dirt-skin-dirt">Dirt skin: dirt</a></li>
+          <li><a href="#mint-skin-mint">Mint skin: mint</a></li>
+          <li><a href="#neon-skin-neon">Neon skin: neon</a></li>
+          <li><a href="#neon-skin-plum">Neon skin: plum</a></li>
+          <li><a href="#sunrise-skin-sunrise">Sunrise skin: sunrise</a></li>
+        </ul>
+      </li>
+      <li><a href="#site-locale">Site locale</a></li>
+      <li><a href="#site-title">Site title</a></li>
+      <li><a href="#site-subtitle">Site subtitle</a></li>
+      <li><a href="#site-name">Site name</a></li>
+      <li><a href="#site-description">Site description</a></li>
+      <li><a href="#site-url">Site URL</a></li>
+      <li><a href="#site-base-url">Site base URL</a></li>
+      <li><a href="#site-repository">Site repository</a></li>
+      <li><a href="#site-scripts">Site scripts</a></li>
+      <li><a href="#site-default-teaser-image">Site default teaser image</a></li>
+      <li><a href="#site-masthead-logo">Site masthead logo</a></li>
+      <li><a href="#site-masthead-title">Site masthead title</a></li>
+      <li><a href="#breadcrumb-navigation-beta">Breadcrumb navigation (beta)</a></li>
+      <li><a href="#reading-time">Reading time</a></li>
+      <li><a href="#comments">Comments</a>
+        <ul>
+          <li><a href="#disqus">Disqus</a></li>
+          <li><a href="#discourse">Discourse</a></li>
+          <li><a href="#facebook-comments">Facebook comments</a></li>
+          <li><a href="#utterances-comments">utterances comments</a></li>
+          <li><a href="#static-based-comments-via-staticman">Static-based comments via Staticman</a>
+            <ul>
+              <li><a href="#add-staticman-as-a-collaborator">Add Staticman as a collaborator</a></li>
+              <li><a href="#configure-staticman">Configure Staticman</a>
+                <ul>
+                  <li><a href="#staticman-v3">Staticman v3</a></li>
+                  <li><a href="#staticman-v2">Staticman v2</a></li>
+                  <li><a href="#staticman-v1-deprecated">Staticman v1 (deprecated)</a></li>
+                </ul>
+              </li>
+              <li><a href="#comment-moderation">Comment moderation</a></li>
+              <li><a href="#recaptcha-support-v2-only">reCAPTCHA support (v2 only)</a></li>
+            </ul>
+          </li>
+          <li><a href="#other-comment-providers">Other comment providers</a></li>
+        </ul>
+      </li>
+      <li><a href="#custom-feed-url">Custom feed URL</a></li>
+      <li><a href="#site-search">Site search</a>
+        <ul>
+          <li><a href="#lunr-default">Lunr (default)</a></li>
+          <li><a href="#algolia">Algolia</a></li>
+          <li><a href="#google-custom-search-engine">Google Custom Search Engine</a></li>
+        </ul>
+      </li>
+      <li><a href="#seo-social-sharing-and-analytics-settings">SEO, social sharing, and analytics settings</a>
+        <ul>
+          <li><a href="#google-search-console">Google Search Console</a></li>
+          <li><a href="#bing-webmaster-tools">Bing Webmaster Tools</a></li>
+          <li><a href="#naver-webmaster-tools">Naver Webmaster Tools</a></li>
+          <li><a href="#yandex">Yandex</a></li>
+          <li><a href="#twitter-cards-and-facebook-open-graph">Twitter Cards and Facebook Open Graph</a>
+            <ul>
+              <li><a href="#site-twitter-username">Site Twitter username</a></li>
+              <li><a href="#facebook-open-graph">Facebook Open Graph</a></li>
+              <li><a href="#open-graph-default-image">Open Graph default image</a></li>
+              <li><a href="#include-your-social-profile-in-search-results">Include your social profile in search results</a></li>
+            </ul>
+          </li>
+          <li><a href="#analytics">Analytics</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#site-author">Site author</a></li>
+  <li><a href="#site-footer">Site footer</a></li>
+  <li><a href="#reading-files">Reading files</a></li>
+  <li><a href="#conversion-and-markdown-processing">Conversion and Markdown processing</a></li>
+  <li><a href="#front-matter-defaults">Front Matter Defaults</a></li>
+  <li><a href="#outputting">Outputting</a>
+    <ul>
+      <li><a href="#paginate">Paginate</a></li>
+      <li><a href="#timezone">Timezone</a></li>
+    </ul>
+  </li>
+  <li><a href="#plugins">Plugins</a></li>
+  <li><a href="#archive-settings">Archive settings</a></li>
+  <li><a href="#html-compression">HTML compression</a></li>
+</ul>
+:ET

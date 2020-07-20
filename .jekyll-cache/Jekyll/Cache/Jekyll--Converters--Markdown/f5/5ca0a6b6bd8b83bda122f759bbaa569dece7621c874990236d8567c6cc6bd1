@@ -1,0 +1,58 @@
+I"A<p>The theme’s <code class="language-plaintext highlighter-rouge">assets/js/main.min.js</code> script is built from several vendor, jQuery plugins, and other scripts found in <a href="https://github.com/mmistakes/minimal-mistakes/tree/master/assets/js"><code class="language-plaintext highlighter-rouge">assets/js/</code></a>.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>minimal mistakes
+├── assets
+|  ├── js
+|  |  ├── plugins
+|  |  |   ├── gumshoe.js                     <span class="c"># simple scrollspy</span>
+|  |  |   ├── jquery.ba-throttle-debounce.js <span class="c"># rate-limit functions</span>
+|  |  |   ├── jquery.fitvids.js              <span class="c"># fluid width video embeds</span>
+|  |  |   ├── jquery.greedy-navigation.js    <span class="c"># priority plus navigation</span>
+|  |  |   ├── jquery.magnific-popup.js       <span class="c"># responsive lightbox</span>
+|  |  |   └── smooth-scroll.js               <span class="c"># make same-page links scroll smoothly</span>
+|  |  ├── vendor
+|  |  |   └── jquery
+|  |  |       └── jquery-3.4.1.js
+|  |  ├── _main.js                           <span class="c"># jQuery plugin settings and other scripts</span>
+|  |  └── main.min.js                        <span class="c"># concatenated and minified theme script</span>
+</code></pre></div></div>
+
+<h2 id="customizing">Customizing</h2>
+
+<p>To modify or add your own scripts include them in <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/assets/js/_main.js"><code class="language-plaintext highlighter-rouge">assets/js/_main.js</code></a> and then rebuild using <code class="language-plaintext highlighter-rouge">npm run build:js</code>. See below for more details.</p>
+
+<p>If you add additional scripts to <code class="language-plaintext highlighter-rouge">assets/js/plugins/</code> and would like them concatenated with the others, be sure to update the <code class="language-plaintext highlighter-rouge">uglify</code> script in <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/package.json"><code class="language-plaintext highlighter-rouge">package.json</code></a>. Same goes for scripts that you remove.</p>
+
+<p>You can also add scripts to the <code class="language-plaintext highlighter-rouge">&lt;head&gt;</code> or closing <code class="language-plaintext highlighter-rouge">&lt;/body&gt;</code> elements by adding paths to following arrays in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p><strong>Example:</strong></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">head_scripts</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">https://code.jquery.com/jquery-3.3.1.min.js</span>
+  <span class="pi">-</span> <span class="s">/assets/js/your-custom-head-script.js</span>
+<span class="na">footer_scripts</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">/assets/js/your-custom-footer-script.js</span>
+<span class="na">after_footer_scripts</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">/assets/js/custom-script-loads-after-footer.js</span>
+</code></pre></div></div>
+
+<p class="notice--warning"><strong>Note:</strong> If you assign <code class="language-plaintext highlighter-rouge">footer_scripts</code> the theme’s <code class="language-plaintext highlighter-rouge">/assets/js/main.min.js</code> file will be deactivated. This script includes jQuery and various other plugins that you’ll need to find replacements for and include separately.</p>
+
+<hr />
+
+<h2 id="build-process">Build process</h2>
+
+<p>In an effort to reduce dependencies a set of <a href="https://css-tricks.com/why-npm-scripts/"><strong>npm scripts</strong></a> are used to build <code class="language-plaintext highlighter-rouge">main.min.js</code> instead of task runners like <a href="http://gulpjs.com/">Gulp</a> or <a href="http://gruntjs.com/">Grunt</a>. If those tools are more your style then by all means use them instead :wink:.</p>
+
+<p>To get started:</p>
+
+<ol>
+  <li>Install <a href="http://nodejs.org/">Node.js</a>.</li>
+  <li><code class="language-plaintext highlighter-rouge">cd</code> to the root of your project.</li>
+  <li>Install all of the dependencies by running <code class="language-plaintext highlighter-rouge">npm install</code>.</li>
+</ol>
+
+<p class="notice--warning"><strong>Note:</strong> If you upgraded from a previous version of the theme be sure you copied over <a href="https://github.com/mir-zone/myblog/blob/master/package.json"><code class="language-plaintext highlighter-rouge">package.json</code></a> prior to running <code class="language-plaintext highlighter-rouge">npm install</code>.</p>
+
+<p>If all goes well, running <code class="language-plaintext highlighter-rouge">npm run build:js</code> will compress/concatenate <code class="language-plaintext highlighter-rouge">_main.js</code> and all plugin scripts into <code class="language-plaintext highlighter-rouge">main.min.js</code>.</p>
+:ET
