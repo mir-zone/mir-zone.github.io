@@ -1,0 +1,63 @@
+I"[<p>Customize site navigational links through a Jekyll data file.</p>
+
+<h2 id="masthead">Masthead</h2>
+
+<p>The masthead links use a “priority plus” design pattern. Meaning, show as many navigation items that will fit horizontally with a toggle to reveal the rest.</p>
+
+<p>To define these links add titles and URLs under the <code class="language-plaintext highlighter-rouge">main</code> key in <code class="language-plaintext highlighter-rouge">_data/navigation.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">main</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Quick-Start</span><span class="nv"> </span><span class="s">Guide"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/docs/quick-start-guide/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Posts"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/year-archive/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Categories"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/categories/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Tags"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/tags/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Pages"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/page-archive/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Collections"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">/collection-archive/</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">External</span><span class="nv"> </span><span class="s">Link"</span>
+    <span class="na">url</span><span class="pi">:</span> <span class="s">https://google.com</span>
+</code></pre></div></div>
+
+<p>Which will give you a responsive masthead similar to this:</p>
+
+<p><img src="/assets/images/mm-priority-plus-masthead.gif" alt="priority plus masthead animation" /></p>
+
+<p>Optionally, you can add a <code class="language-plaintext highlighter-rouge">description</code> key per title in the <code class="language-plaintext highlighter-rouge">main</code> key. This <code class="language-plaintext highlighter-rouge">description</code> will show up like a tooltip, when the user hovers over the link on a desktop browser.</p>
+
+<p class="notice--info"><strong>ProTip:</strong> Put the most important links first so they’re always visible and not hidden behind the <strong>menu toggle</strong>.</p>
+
+<h2 id="breadcrumbs-beta">Breadcrumbs (beta)</h2>
+
+<p>Enable breadcrumb links to help visitors better navigate deep sites. Because of the fragile method of implementing them they don’t always produce accurate links reliably. For best results:</p>
+
+<ol>
+  <li>Use a category based permalink structure e.g. <code class="language-plaintext highlighter-rouge">permalink: /:categories/:title/</code></li>
+  <li>Manually create pages for each category or use a plugin like <a href="https://github.com/jekyll/jekyll-archives">jekyll-archives</a> to auto-generate them. If these pages don’t exist breadcrumb links to them will be broken.</li>
+</ol>
+
+<p><img src="/assets/images/mm-breadcrumbs-example.jpg" alt="breadcrumb navigation example" /></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">breadcrumbs</span><span class="pi">:</span> <span class="no">true</span>  <span class="c1"># disabled by default</span>
+</code></pre></div></div>
+
+<p>Breadcrumb start link text and separator character can both be changed in <code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code>.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">breadcrumb_home_label </span><span class="pi">:</span> <span class="s2">"</span><span class="s">Home"</span>
+<span class="na">breadcrumb_separator  </span><span class="pi">:</span> <span class="s2">"</span><span class="s">/"</span>
+</code></pre></div></div>
+
+<p>For breadcrumbs that resemble something like <code class="language-plaintext highlighter-rouge">Start &gt; Blog &gt; My Awesome Post</code> you’d apply these settings:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">breadcrumb_home_label </span><span class="pi">:</span> <span class="s2">"</span><span class="s">Start"</span>
+<span class="na">breadcrumb_separator  </span><span class="pi">:</span> <span class="s2">"</span><span class="s">&gt;"</span>
+</code></pre></div></div>
+
+<h2 id="custom-sidebar-navigation-menu">Custom sidebar navigation menu</h2>
+
+<p>See the <a href="/docs/layouts/#custom-sidebar-navigation-menu"><strong>sidebars</strong> documentation</a> for information on setting up a custom navigation menu.</p>
+:ET

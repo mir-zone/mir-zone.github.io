@@ -1,0 +1,35 @@
+{% if page.image %}
+  {% assign page_image = page.image.path | default: page.image %}
+  {% unless page_image contains '://' %}
+    {% assign page_image = page_image | relative_url %}
+  {% endunless %}
+  {% assign page_image = page_image | escape %}
+
+  {% if page.image.overlay_filter contains "rgba" %}
+    {% capture overlay_filter %}{{ page.image.overlay_filter }}{% endcapture %}
+  {% elsif page.image.overlay_filter %}
+    {% capture overlay_filter %}rgba(0, 0, 0, {{ page.image.overlay_filter }}){% endcapture %}
+  {% endif %}
+
+  <div class="page-image">
+    {% if page.tagline %}
+      <div class="wrapper" style="{% if page_image %}background-image: {% if overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}), {% endif %}url('{{ page_image }}');{% endif %}">
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        {% if page.header.cta_url %}
+          <p><a href="{{ page.image.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.image.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+        {% if page.image.actions %}
+          {% for action in page.image.actions %}
+            <p><a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></P>
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% else %}
+      <img src="{{ page_image }}" class="entry-feature-image u-photo" alt="{{ page.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
+    {% endif %}
+
+    {% if page.image.caption %}
+      <div class="page-image-caption">{{ page.image.caption | markdownify }}</div>
+    {% endif %}
+  </div>
+{% endif %}
