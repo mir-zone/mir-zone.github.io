@@ -54,6 +54,8 @@ blockquote { background-color: #ebebed; border-left-color: #34374C; }
 
 .back-to-top { color: gray; }
 
+.site-nav { opacity: 0.8; }
+
 .site-nav ul { color: #fff; background-color: #000; }
 
 .site-nav a { color: #fff; border-color: #000; }
