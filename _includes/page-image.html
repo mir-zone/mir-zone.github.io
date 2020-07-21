@@ -23,8 +23,11 @@
             <p><a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></P>
           {% endfor %}
         {% endif %}
+
+        <img src="/assets/images/blank.png" style="width:100%" class="blank" alt="">
       </div>
-    {% else %}
+      
+      {% else %}
       <img src="{{ page_image }}" class="entry-feature-image u-photo" alt="{{ page.title }}" {% unless site.logo %}style="margin-top: 0;"{% endunless %}>
     {% endif %}
 

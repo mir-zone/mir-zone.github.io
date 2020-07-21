@@ -458,21 +458,21 @@ tr, td, th { vertical-align: middle; }
 
 .page-image { position: relative; margin-top: -37.5px; margin-bottom: 2em; z-index: 1; }
 
-.page-image .wrapper { padding-left: 1em; padding-right: 1em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; }
+.page-image .wrapper { padding-top: 2em; padding-left: 1em; padding-right: 1em; clear: both; background-size: cover; background-repeat: no-repeat; background-position: center; }
 
 .page-image .wrapper::after { clear: both; content: ""; display: table; }
 
 .page-image .wrapper a { color: #fff; }
 
-.page-image .wrapper .page__title, .page-image .wrapper .page__meta, .page-image .wrapper .page__lead, .page-image .wrapper .btn { color: #fff; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
+.page-image .wrapper .page__title, .page-image .wrapper .page__meta, .page-image .wrapper .page__lead, .page-image .wrapper .btn { color: #fff; font-size: 1.3em; text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
 
 .page-image .wrapper .page__lead { max-width: 768px; }
+
+.page-image .wrapper .entry-feature-image { width: 100%; }
 
 @media (min-width: 48em) { .page-image { margin-top: -56.25px; } }
 
 @media (min-width: 64em) { .page-image { margin-top: -75px; } }
-
-.page-image img { width: 100%; }
 
 .page-image-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 0.25em 0.5em; color: #fff; font-size: 0.75rem; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 4px 0 0 0; }
 

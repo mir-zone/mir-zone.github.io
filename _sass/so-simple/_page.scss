@@ -25,6 +25,7 @@
   z-index: 1;
 
   .wrapper {
+    padding-top: 2em;
     padding-left: 1em;
     padding-right: 1em;
 
@@ -42,11 +43,15 @@
     .page__lead,
     .btn {
       color: #fff;
+      font-size: 1.3em;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
     .page__lead {
       max-width: $medium;
+    }
+    .entry-feature-image{
+      width: 100%;
     }
   }
 
@@ -58,9 +63,7 @@
     margin-top: (-2 * $site-logo-height) / 2;
   }
 
-  img {
-    width: 100%;
-  }
+
 }
 
 .page-image-caption {
