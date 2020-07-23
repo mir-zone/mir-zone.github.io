@@ -26,29 +26,34 @@ last_modified_at: 2020-05-01T10:15:22-04:00
 toc: true
 ---
 
+First of all, thanks to Michael Rose for providing the theme.  
+
+*Welcome...!*
 ---
-안녕하세요...
+새롭게 시작 하는 웹페이지에 접속하여 주셔서 감사합니다.  
 
-새롭게 시작 하는 웹페이지에 접속하여 주셔서 감사합니다.
+Web page를 잘 모르는 초보가 Github를 통해  
 
-이제 시작하는 사이트로  
+Site공간을 만들고 Minimal Mistakes Theme를  
 
-아직 볼거리는 없는 상황이오나  
+적용하여 이렇게 저만의 공간을 만들어 봅니다.  
+
+아직, 볼거리는 미흡한 상황이오나  
 
 계속적으로 개선 해 가는 모습을 담담히 지켜봐 주시옵고,  
 
-너그럽게 발전되는 모습을 감상하여 주세요.
+발전되는 모습을 응원하는 마음으로 감상하여 주세요.
 
 
 {% include gallery id="layouts_gallery" caption="Photo by Mir." %}
 
 ## Notable Features
 
-저 개인의 소소한 이야기와 사진을 남기고  
+개인의 소소한 이야기와 사진을 남기고,  
 
-나이가 들어감에 깜박깜박 잊어가는...   
+나이가 들어감에 깜박깜박 잊어가는... 시간과 세상을  
 
-시간과 세상을 메모로서 남기고자, 이 공간에 한땀한땀 만들어 갑니다.
+메모로서 상기하고자 이 공간을 한땀한땀 만들어 갑니다.
  
 또한 아직까지도 궁금한 것이 많고 챙겨서 잊지않고  
 
@@ -65,21 +70,35 @@ toc: true
 
 함께 경계를 무너뜨려야 한다.  
 
-사람 간에도 그런듯하다...  
+항상 주위를 둘러보고 나만의 벽을 먼저 허물어   
 
-여러 관계가 있지만 서로가 서로를 배려치 않고  
+서로가 서로의 관계를 배려한다면  
 
-나만 생각한다면 어려움만이 우리에게 다가오는 건 아닌지 ~!
+우리는 싸움없는 더 좋은 세상에서 공존할 수 있지 않을까 ~~~!
 
 
 {% include gallery id="layouts2_gallery" caption="Photo by Mir." %}
 
 ### Icons + Images:
 
-Free license 제공 site를 통하여 활용한다.
+- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
+- [Font Awesome](http://fontawesome.io/)
+- [Unsplash](https://unsplash.com/)
 
 
 ### Other:
+
+- [Jekyll](https://jekyllrb.com/)
+- [jQuery](https://jquery.com/)
+- [Susy](http://susy.oddbird.net/)
+- [Breakpoint](http://breakpoint-sass.com/)
+- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
+- [FitVids.JS](http://fitvidsjs.com/)
+- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
+- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
+- [Lunr](http://lunrjs.com)
+
+---
 
 사람은  
 
@@ -93,7 +112,4 @@ Free license 제공 site를 통하여 활용한다.
 
 우리는 줄곧 이어져 살고 있으며,  
 
-마음을 자아내 가는 '사람'이다.  
-
----
-감사합니다. ~!
+마음을 자아내 가는 '사람'이다. 

@@ -1,4 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-22T01:53:16+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Nice place to play</title><subtitle>A simple Jekyll theme for words and pictures.</subtitle><author><name>Mir</name></author><entry><title type="html">Hidden Post</title><link href="http://localhost:4000/2018/02/25/hidden-post.html" rel="alternate" type="text/html" title="Hidden Post" /><published>2018-02-25T00:00:00+09:00</published><updated>2018-02-25T00:00:00+09:00</updated><id>http://localhost:4000/2018/02/25/hidden-post</id><content type="html" xml:base="http://localhost:4000/2018/02/25/hidden-post.html">&lt;p&gt;This post has YAML Front Matter of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hidden: true&lt;/code&gt; and should not appear in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;paginator.posts&lt;/code&gt;.&lt;/p&gt;</content><author><name>Mir</name></author><summary type="html">This post has YAML Front Matter of hidden: true and should not appear in paginator.posts.</summary></entry><entry><title type="html">MathJax Example</title><link href="http://localhost:4000/2015/08/10/mathjax-example.html" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T21:08:50+09:00</published><updated>2015-08-10T21:08:50+09:00</updated><id>http://localhost:4000/2015/08/10/mathjax-example</id><content type="html" xml:base="http://localhost:4000/2015/08/10/mathjax-example.html">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple, yet powerful, way of
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-23T13:52:14+09:00</updated><id>http://localhost:4000/atom.xml</id><title type="html">Nice place to play</title><subtitle>A simple Jekyll theme for words and pictures.</subtitle><author><name>Mir</name></author><entry><title type="html">잠깐의 여유…</title><link href="http://localhost:4000/think/2020/07/13/video-thought.html" rel="alternate" type="text/html" title="잠깐의 여유…" /><published>2020-07-13T00:38:05+09:00</published><updated>2020-07-13T00:38:05+09:00</updated><id>http://localhost:4000/think/2020/07/13/video-thought</id><content type="html" xml:base="http://localhost:4000/think/2020/07/13/video-thought.html">&lt;!-- Courtesy of embedresponsively.com //--&gt;
+&lt;div class=&quot;responsive-video-container&quot;&gt;
+
+  &lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/tUVl2iS5yNk&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;잠깐의 생각이 머무는 시간&lt;br /&gt;
+어떤때는 내가 원하는 것이&lt;br /&gt;
+무엇인지도 모르면서&lt;br /&gt;
+바라고만 있을 때가 있다.&lt;/p&gt;
+
+&lt;p&gt;언제나 생각만이 깊어지는 시간&lt;br /&gt;
+무엇을 생각하는 지도 모르는 채&lt;br /&gt;
+시간만이 저만치 스쳐 지나가고 있다.&lt;/p&gt;
+
+&lt;p&gt;언제나 인지 못하는 소중한 순간을&lt;br /&gt;
+나는 언제나 기억할 수 있을지 ~~~&lt;/p&gt;</content><author><name>Mir</name></author><category term="think" /><category term="비" /><category term="여유로운 마음" /><summary type="html"></summary></entry><entry><title type="html">Happy Birthday to 정민!</title><link href="http://localhost:4000/anniversary/2020/06/27/Happy-Birthday.html" rel="alternate" type="text/html" title="Happy Birthday to 정민!" /><published>2020-06-27T18:00:00+09:00</published><updated>2020-06-27T18:00:00+09:00</updated><id>http://localhost:4000/anniversary/2020/06/27/Happy-Birthday</id><content type="html" xml:base="http://localhost:4000/anniversary/2020/06/27/Happy-Birthday.html">&lt;p&gt;&lt;img src=&quot;/assets/images/md-20200627-01.png&quot; alt=&quot;img&quot; title=&quot;생일 축하합니다.&quot; /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;정민c-&quot;&gt;정민C ~~!!!&lt;/h3&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;
+05월 07일 47번째 생일을 축하합니다.&lt;/p&gt;
+
+&lt;p&gt;항상 당신과 함께한 시간을 신께 감사드리며,&lt;/p&gt;
+
+&lt;p&gt;언제나 밝고 명랑하게 가족을 위하여 헌신하는&lt;/p&gt;
+
+&lt;p&gt;당신께 이렇게 두손모아 감사드립니다.&lt;/p&gt;
+
+&lt;h1 id=&quot;only-one-jung-min&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Only ONE Jung MIN&lt;/code&gt;&lt;/h1&gt;</content><author><name>Mir</name></author><category term="anniversary" /><category term="생일" /><summary type="html"></summary></entry><entry><title type="html">한여름, 숲에 눕다</title><link href="http://localhost:4000/poems/2020/06/26/poetical-works02.html" rel="alternate" type="text/html" title="한여름, 숲에 눕다" /><published>2020-06-26T21:30:03+09:00</published><updated>2020-06-26T21:30:03+09:00</updated><id>http://localhost:4000/poems/2020/06/26/poetical-works02</id><content type="html" xml:base="http://localhost:4000/poems/2020/06/26/poetical-works02.html">&lt;p&gt;한여름, 숲에 눕다&lt;/p&gt;
+
+&lt;p&gt;원숙희&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/md-20200626-01.jpg&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;사랑을 받지 못해 서글픈 날에는&lt;br /&gt;
+사랑을 잊지 못해 애달픈 날에는&lt;br /&gt;
+숲을 이불 삼아 풀베게를 베고 누워요&lt;/p&gt;
+
+&lt;p&gt;지나가는 바람은 지나가게&lt;br /&gt;
+몰려다니는 바람은 몰려다니게&lt;br /&gt;
+그냥 그대로 놔둔 채&lt;br /&gt;
+달은 어둠의 조각보 접어&lt;br /&gt;
+지상에 빛을 심고&lt;br /&gt;
+별들은 가난한 지붕에 박꽃&lt;br /&gt;
+같은 등불 매다네요&lt;/p&gt;
+
+&lt;p&gt;아, 혈관에 떠도는 습관을 꺼내보니&lt;br /&gt;
+바람은 그저 바람이었고요&lt;br /&gt;
+짭짭허게 나눈 사랑은&lt;br /&gt;
+어느새 머나먼 남이었어요&lt;/p&gt;
+
+&lt;p&gt;이젠 따스한 숲에 귀를 열래요&lt;br /&gt;
+풀벌레는 투명한 문장을 읽고&lt;br /&gt;
+계곡물은 경건한 고독으로 흘러오네요&lt;/p&gt;
+
+&lt;p&gt;그·동·안·이 모두 봉합되네요&lt;/p&gt;
+
+&lt;p&gt;ㅡ 소정문학 앤솔러지 “동인” 2020년&lt;/p&gt;</content><author><name>Mir</name></author><category term="poems" /><category term="여름" /><summary type="html"></summary></entry><entry><title type="html">이렇게 비가 내리면</title><link href="http://localhost:4000/poems/2020/06/26/poetical-works00.html" rel="alternate" type="text/html" title="이렇게 비가 내리면" /><published>2020-06-26T19:30:40+09:00</published><updated>2020-06-26T19:30:40+09:00</updated><id>http://localhost:4000/poems/2020/06/26/poetical-works00</id><content type="html" xml:base="http://localhost:4000/poems/2020/06/26/poetical-works00.html">&lt;p&gt;이렇게 비가 내리면&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;한유경 -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/md-20200626-01.gif&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;언제나 한 곳을 바라보는 그대&lt;br /&gt;
+눈부셔 가끔은 고개 숙인 그대&lt;br /&gt;
+그대 바라보는 내 마음은 알고 있는지요?&lt;/p&gt;
+
+&lt;p&gt;오늘도 그대 보기 위해 바삐 달려왔구먼&lt;br /&gt;
+그대의 마음 변함이 없으니&lt;br /&gt;
+나 오늘도 그대의 모습만 담아가오&lt;/p&gt;
+
+&lt;p&gt;나 바라봐 주지 않아도 좋으니&lt;/p&gt;
+
+&lt;p&gt;그대의 태양이 당신을 한없는 사랑으로&lt;/p&gt;
+
+&lt;p&gt;비추어주길 바라오&lt;/p&gt;
+
+&lt;p&gt;이렇게 비가 내리는 날&lt;/p&gt;
+
+&lt;p&gt;오늘만은 그대 나만 바라봐 주길&lt;/p&gt;
+
+&lt;p&gt;지금 그대 향해 발길 옮겨봅니다&lt;/p&gt;
+
+&lt;p&gt;다행입니다&lt;/p&gt;
+
+&lt;p&gt;축축 쳐진 모습이 아니라&lt;/p&gt;
+
+&lt;p&gt;빛나는 모습으로 나 반겨주니&lt;/p&gt;
+
+&lt;p&gt;나 그대를 사랑합니다&lt;/p&gt;
+
+&lt;p&gt;한없는 마음으로&lt;/p&gt;
+
+&lt;p&gt;그대를 사랑합니다.&lt;/p&gt;</content><author><name>Mir</name></author><category term="poems" /><category term="비" /><summary type="html"></summary></entry><entry><title type="html">햇빛 과 소낙비</title><link href="http://localhost:4000/poems/2020/06/25/poetical-works01.html" rel="alternate" type="text/html" title="햇빛 과 소낙비" /><published>2020-06-25T04:49:05+09:00</published><updated>2020-06-25T04:49:05+09:00</updated><id>http://localhost:4000/poems/2020/06/25/poetical-works01</id><content type="html" xml:base="http://localhost:4000/poems/2020/06/25/poetical-works01.html">&lt;h4 id=&quot;햇빛과-소낙비&quot;&gt;햇빛과 소낙비&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;정연복 -&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/md-20200624-01.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;쨍쨍&lt;/p&gt;
+
+&lt;p&gt;햇빛 좋을 땐&lt;/p&gt;
+
+&lt;p&gt;소낙비가&lt;/p&gt;
+
+&lt;p&gt;가만히 물러서 있다&lt;/p&gt;
+
+&lt;p&gt;지금은 너의 시간이니까&lt;/p&gt;
+
+&lt;p&gt;맘껏 힘을 쓰라고.&lt;/p&gt;
+
+&lt;p&gt;주룩주룩&lt;/p&gt;
+
+&lt;p&gt;소낙비 내리는 날엔&lt;/p&gt;
+
+&lt;p&gt;햇빛이&lt;/p&gt;
+
+&lt;p&gt;슬며시 자취를 감춘다&lt;/p&gt;
+
+&lt;p&gt;오늘은 네 날이라며&lt;/p&gt;
+
+&lt;p&gt;제 빛을 드러내지 않는다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 햇빛과 소낙비&lt;/p&gt;
+
+&lt;p&gt;서로 숨바꼭질하다가도&lt;/p&gt;
+
+&lt;p&gt;이따금 반갑게 만난다&lt;/p&gt;
+
+&lt;p&gt;하늘의 영롱한 무지개로.&lt;/p&gt;</content><author><name>Mir</name></author><category term="poems" /><category term="비" /><summary type="html"></summary></entry><entry><title type="html">Hidden Post</title><link href="http://localhost:4000/2018/02/25/hidden-post.html" rel="alternate" type="text/html" title="Hidden Post" /><published>2018-02-25T00:00:00+09:00</published><updated>2018-02-25T00:00:00+09:00</updated><id>http://localhost:4000/2018/02/25/hidden-post</id><content type="html" xml:base="http://localhost:4000/2018/02/25/hidden-post.html">&lt;p&gt;This post has YAML Front Matter of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hidden: true&lt;/code&gt; and should not appear in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;paginator.posts&lt;/code&gt;.&lt;/p&gt;</content><author><name>Mir</name></author><summary type="html">This post has YAML Front Matter of hidden: true and should not appear in paginator.posts.</summary></entry><entry><title type="html">MathJax Example</title><link href="http://localhost:4000/2015/08/10/mathjax-example.html" rel="alternate" type="text/html" title="MathJax Example" /><published>2015-08-10T21:08:50+09:00</published><updated>2015-08-10T21:08:50+09:00</updated><id>http://localhost:4000/2015/08/10/mathjax-example</id><content type="html" xml:base="http://localhost:4000/2015/08/10/mathjax-example.html">&lt;p&gt;&lt;a href=&quot;http://www.mathjax.org/&quot;&gt;MathJax&lt;/a&gt; is a simple, yet powerful, way of
 including Tex/LaTex/MathML based mathematics in HTML webpages.&lt;/p&gt;
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
@@ -530,577 +668,4 @@ the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ams&lt;/c
 
 &lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
 
-&lt;p&gt;And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!&lt;/p&gt;</content><author><name>Mir</name></author><category term="Markup" /><category term="alignment" /><category term="captions" /><category term="content" /><category term="css" /><category term="image" /><category term="markup" /><summary type="html">The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/so-simple-sample-image-5.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/so-simple-sample-image-5.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Markup: Text Alignment and Transformations</title><link href="http://localhost:4000/markup/2013/01/09/markup-text-alignment.html" rel="alternate" type="text/html" title="Markup: Text Alignment and Transformations" /><published>2013-01-09T00:00:00+09:00</published><updated>2017-03-10T02:17:03+09:00</updated><id>http://localhost:4000/markup/2013/01/09/markup-text-alignment</id><content type="html" xml:base="http://localhost:4000/markup/2013/01/09/markup-text-alignment.html">&lt;p&gt;Sample text to demonstrate alignment and transformation classes.&lt;/p&gt;
-
-&lt;p&gt;Easily realign text with alignment classes via HTML:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;p class=&quot;text-left&quot;&amp;gt;Left aligned text.&amp;lt;/p&amp;gt;
-&amp;lt;p class=&quot;text-center&quot;&amp;gt;Center aligned text.&amp;lt;/p&amp;gt;
-&amp;lt;p class=&quot;text-right&quot;&amp;gt;Right aligned text.&amp;lt;/p&amp;gt;
-&amp;lt;p class=&quot;text-justify&quot;&amp;gt;Justified text.&amp;lt;/p&amp;gt;
-&amp;lt;p class=&quot;text-nowrap&quot;&amp;gt;No wrap text.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Or with Kramdown and &lt;a href=&quot;https://kramdown.gettalong.org/syntax.html#inline-attribute-lists&quot;&gt;inline attribute lists&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Left aligned text.
-{: .text-left}
-
-Center aligned text.
-{: .text-center}
-
-Right aligned text.
-{: .text-right}
-
-Justified text.
-{: .text-justify}
-
-No wrap text.
-{: .text-nowrap}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;default&quot;&gt;Default&lt;/h2&gt;
-
-&lt;p&gt;This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.&lt;/p&gt;
-
-&lt;h2 id=&quot;left-aligned&quot;&gt;Left Aligned&lt;/h2&gt;
-
-&lt;p class=&quot;text-left&quot;&gt;This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it’s views. It’s favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.&lt;/p&gt;
-
-&lt;h2 id=&quot;center-aligned&quot;&gt;Center Aligned&lt;/h2&gt;
-
-&lt;p class=&quot;text-center&quot;&gt;This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.&lt;/p&gt;
-
-&lt;h2 id=&quot;right-aligned&quot;&gt;Right Aligned&lt;/h2&gt;
-
-&lt;p class=&quot;text-right&quot;&gt;This is a paragraph. It is right aligned. It is a bit more conservative in it’s views. It’s prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it’s a pretty good shot from at least four or five football fields away. Dead on. So boss.&lt;/p&gt;
-
-&lt;h2 id=&quot;justify-aligned&quot;&gt;Justify Aligned&lt;/h2&gt;
-
-&lt;p class=&quot;text-justify&quot;&gt;This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it’s place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.&lt;/p&gt;
-
-&lt;h2 id=&quot;no-wrap&quot;&gt;No Wrap&lt;/h2&gt;
-
-&lt;p class=&quot;text-nowrap&quot;&gt;This is a paragraph. It has a no wrap. Beef ribs pig tenderloin filet mignon. Spare ribs leberkas ribeye, burgdoggen fatback tenderloin biltong jowl flank sirloin hamburger bacon brisket. Shoulder bresaola drumstick capicola. Beef ribs prosciutto porchetta beef.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Transform text with capitalization classes via HTML:&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-lowercase&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Lowercased text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-uppercase&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Uppercased text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-capitalize&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Capitalized text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text-truncate&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Truncated text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;small&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Small text.&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Or with Kramdown:&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Lowercased text
-{: .text-lowercase}
-
-Uppercased text
-{: .text-uppercase}
-
-Capitalized text
-{: .text-capitalize}
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p class=&quot;text-lowercase&quot;&gt;Lowercased text&lt;/p&gt;
-
-&lt;p class=&quot;text-uppercase&quot;&gt;Uppercased text&lt;/p&gt;
-
-&lt;p class=&quot;text-capitalize&quot;&gt;Capitalized text&lt;/p&gt;
-
-&lt;p class=&quot;text-truncate&quot;&gt;This is a truncated paragraph of text. Bacon ipsum dolor amet shoulder jowl tail andouille fatback tongue. Ham porchetta kielbasa pork pork chop, tenderloin hamburger meatball. Picanha porchetta swine, brisket salami pork belly burgdoggen. Cupim swine pastrami, chuck tri-tip pork belly jowl shankle alcatra brisket capicola ball tip prosciutto beef ribs doner. Tri-tip bacon ground round pork chop burgdoggen leberkas pork strip steak beef corned beef salami.&lt;/p&gt;
-
-&lt;p class=&quot;small&quot;&gt;Small text&lt;/p&gt;</content><author><name>Mir</name></author><category term="Markup" /><category term="alignment" /><category term="content" /><category term="css" /><category term="markup" /><summary type="html">Sample text to demonstrate alignment and transformation classes.</summary></entry><entry><title type="html">Markup: Title with Special — Characters</title><link href="http://localhost:4000/markup/2013/01/05/markup-title-with-special-characters.html" rel="alternate" type="text/html" title="Markup: Title with Special — Characters" /><published>2013-01-05T00:00:00+09:00</published><updated>2017-03-10T02:23:27+09:00</updated><id>http://localhost:4000/markup/2013/01/05/markup-title-with-special-characters</id><content type="html" xml:base="http://localhost:4000/markup/2013/01/05/markup-title-with-special-characters.html">&lt;p&gt;Putting special characters in the title should have no adverse effect on the layout or functionality.&lt;/p&gt;
-
-&lt;p&gt;The title above has none-breaking spaces before and after the m-dash.&lt;/p&gt;
-
-&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;---&lt;span class=&quot;ni&quot;&gt;&amp;amp;nbsp;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h2 id=&quot;latin-character-tests&quot;&gt;Latin Character Tests&lt;/h2&gt;
-
-&lt;p&gt;This is a test to see if the fonts used in this theme support basic Latin characters.&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td&gt;
-      !
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;#8220;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      #
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      $
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      %
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;amp;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;#8216;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      (
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      )
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      *
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      +
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      ,
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;#8211;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      .
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      /
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      1
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      2
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      3
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      4
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      5
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      6
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      7
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      8
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      9
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      :
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      ;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      =
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      &amp;lt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      ?
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      @
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      A
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      B
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      C
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      D
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      E
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      F
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      G
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      H
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      I
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      J
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      K
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      L
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      M
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      N
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      O
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      P
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      Q
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      R
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      S
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      T
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      U
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      V
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      W
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      X
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      Y
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      Z
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      [
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      ]
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      ^
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      _
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      `
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      a
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      b
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      c
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      d
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      e
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      f
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      g
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      h
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      i
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      j
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      k
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      l
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      m
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      n
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      o
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      p
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      q
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      r
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      s
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      t
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      u
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      v
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      w
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      x
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      y
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      z
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  
-  &lt;tr&gt;
-    &lt;td&gt;
-      {
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      |
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      }
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-      ~
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-    
-    &lt;td&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;</content><author><name>Mir</name></author><category term="Markup" /><category term="html" /><category term="markup" /><category term="post" /><category term="title" /><summary type="html">Putting special characters in the title should have no adverse effect on the layout or functionality.</summary></entry><entry><title type="html">Markup: Title *with* **Markdown**</title><link href="http://localhost:4000/markdown/2013/01/05/markup-title-with-markdown.html" rel="alternate" type="text/html" title="Markup: Title *with* **Markdown**" /><published>2013-01-05T00:00:00+09:00</published><updated>2017-03-10T02:25:10+09:00</updated><id>http://localhost:4000/markdown/2013/01/05/markup-title-with-markdown</id><content type="html" xml:base="http://localhost:4000/markdown/2013/01/05/markup-title-with-markdown.html">&lt;p&gt;Using Markdown in the title should have no adverse effect on the layout or functionality.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page.title&lt;/code&gt; example:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Markup:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Title&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;*with*&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;**Markdown**&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Mir</name></author><category term="Markdown" /><category term="css" /><category term="html" /><category term="title" /><summary type="html">Using Markdown in the title should have no adverse effect on the layout or functionality.</summary></entry><entry><title type="html">Markup: Text Readability Test</title><link href="http://localhost:4000/2012/05/22/markup-text-readability.html" rel="alternate" type="text/html" title="Markup: Text Readability Test" /><published>2012-05-22T00:00:00+09:00</published><updated>2017-03-10T02:26:59+09:00</updated><id>http://localhost:4000/2012/05/22/markup-text-readability</id><content type="html" xml:base="http://localhost:4000/2012/05/22/markup-text-readability.html">&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;</content><author><name>Mir</name></author><category term="sample post" /><category term="readability" /><category term="test" /><summary type="html">A large amount of sample text to test readability of a text heavy page.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/so-simple-sample-image-2.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/so-simple-sample-image-2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Layout: Author Override</title><link href="http://localhost:4000/2012/03/14/layout-author-override.html" rel="alternate" type="text/html" title="Layout: Author Override" /><published>2012-03-14T00:00:00+09:00</published><updated>2012-03-14T00:00:00+09:00</updated><id>http://localhost:4000/2012/03/14/layout-author-override</id><content type="html" xml:base="http://localhost:4000/2012/03/14/layout-author-override.html">&lt;p&gt;Sites that may have content authored from various individuals can be accommodated by using &lt;a href=&quot;https://jekyllrb.com/docs/datafiles/&quot;&gt;data files&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;To attribute an author to a post or page that is different from the site author specified in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 1.&lt;/strong&gt; Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_data/authors.yml&lt;/code&gt; and add authors using the following format. Anything variables found under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; can be used (e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;name&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;avatar&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uri&lt;/code&gt;, social media profiles, etc.).&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# /_data/authors.yml&lt;/span&gt;
-
-&lt;span class=&quot;na&quot;&gt;Billy Rick&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Billy&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Rick&quot;&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/images/bio-photo-2.jpg&quot;&lt;/span&gt;
-
-&lt;span class=&quot;na&quot;&gt;Cornelius Fiddlebone&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Cornelius&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Fiddlebone&quot;&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;picture&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;/images/bio-photo.jpg&quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Step 2.&lt;/strong&gt; Assign one of the authors in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;authors.yml&lt;/code&gt; to a post or page you wish to override the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;site.author&lt;/code&gt; with.&lt;/p&gt;
-
-&lt;p&gt;Example: To assign &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Billy Rick&lt;/code&gt; as an author for a post the following YAML Front Matter would be applied:&lt;/p&gt;
-
-&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;author&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;Billy Rick&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>Billy Rick</name></author><summary type="html">A post to test author overrides using a data file.</summary></entry></feed>
+&lt;p&gt;And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!&lt;/p&gt;</content><author><name>Mir</name></author><category term="Markup" /><category term="alignment" /><category term="captions" /><category term="content" /><category term="css" /><category term="image" /><category term="markup" /><summary type="html">The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</summary></entry></feed>

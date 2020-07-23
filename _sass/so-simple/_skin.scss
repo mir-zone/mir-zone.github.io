@@ -10,6 +10,7 @@ body {
 
 a {
   color: $accent-color;
+  opacity: 0.9;
 
   &:hover {
     color: shade($accent-color, 25%);
@@ -67,7 +68,7 @@ blockquote {
 }
 
 .site-nav {
-  opacity: 0.8;
+  opacity: 0.9;
   ul {
     color: $nav-color;
     background-color: $nav-background-color;

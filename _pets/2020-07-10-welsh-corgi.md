@@ -5,10 +5,11 @@ excerpt:
   여우와 닮은 외모, 영리하고 성격이 온순한 품종<br>
   <small>다리는 매우 짧으며 펌브로크종은 꼬리가 없는 개로 유명<br>
   목양견으로 소를 몰 때 차이지 않게 하려고 다리는 짧게 개량되었음.</small>
-image:
-  path: /assets/studio/mm-pets-page-unsplash-003.jpg #배경 고정
+header:
+  overlay_image: /assets/studio/mm-pets-page-unsplash-003.jpg #배경 고정
   overlay_filter: 0.4 # same as adding an opacity of 0.5 to a black background
-  thumbnail: /assets/studio/mm-pets-page-unsplash-003-th.jpg
+  teaser: /assets/studio/mm-pets-page-unsplash-003-th.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 gallery:
   - url: /assets/studio/mm-pets-page-unsplash-003.jpg
     image_path: /assets/studio/mm-pets-page-unsplash-003-th.jpg

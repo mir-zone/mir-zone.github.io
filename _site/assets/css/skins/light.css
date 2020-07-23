@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ========================================================================== Color Functions ========================================================================== */
 /* EM conversion ========================================================================== */
 /* ========================================================================== Fluid Type as seen on https://madebymike.com.au/writing/fluid-type-calc-examples/ ========================================================================== */
@@ -22,39 +23,49 @@
 /* Site logo */
 /* Border radius */
 /* Global transition */
+/* 추가사항 확인 후 삭제 가능 ============================ */
+/* Other */
+/* Breakpoints */
+/* type scale */
+/* serif typefaces */
+/* system typefaces */
+/* Grid ========================================================================== */
+/* sans serif typefaces */
+/* Colors ========================================================================== */
+/* links */
 /* ========================================================================== NOTICE TEXT BLOCKS ========================================================================== */
 /** Default Kramdown usage (no indents!): <div class="notice" markdown="1"> #### Headline for the Notice Text for the notice </div> */
 /* Colors */
 /* Syntax highlighting (base16) colors */
 /* ========================================================================== Base elements ========================================================================== */
-body { color: #404040; background: #fff; border-top-color: #626262; }
+body { color: #3d4144; background: #fff; border-top-color: #626262; }
 
-a { color: #0a71e2; }
+a { color: #0a71e2; opacity: 0.9; }
 
 a:hover { color: #0855aa; }
 
 blockquote { background-color: #e7f1fc; border-left-color: #0a71e2; }
 
 /* ========================================================================== Site-wide ========================================================================== */
-.site-title a { color: #404040; }
+.site-title a { color: #3d4144; }
 
-.copyright { color: gray; }
+.copyright { color: #798187; }
 
-.copyright a { color: gray; }
+.copyright a { color: #798187; }
 
-.taxonomy-title { color: #d9d9d9; }
+.taxonomy-title { color: #d7dadc; }
 
-.taxonomy-count { color: silver; }
+.taxonomy-count { color: #bdc0c3; }
 
-.taxonomy-index a { border-bottom-color: #d9d9d9; }
+.taxonomy-index a { border-bottom-color: #f2f3f3; }
 
 .taxonomy-index a:hover { color: #0a71e2; }
 
-.taxonomy-section:not(:last-child) { border-bottom-color: #d9d9d9; }
+.taxonomy-section:not(:last-child) { border-bottom-color: #f2f3f3; }
 
-.back-to-top { color: silver; }
+.back-to-top { color: #bdc0c3; }
 
-.site-nav { opacity: 0.8; }
+.site-nav { opacity: 0.9; }
 
 .site-nav ul { color: #fff; background-color: #626262; }
 
@@ -62,19 +73,19 @@ blockquote { background-color: #e7f1fc; border-left-color: #0a71e2; }
 
 .site-nav a:hover { border-color: #fff; }
 
-.site-footer { border-top-color: #d9d9d9; }
+.site-footer { border-top-color: #f2f3f3; }
 
-.footnotes { border-top-color: #d9d9d9; }
+.footnotes { border-top-color: #f2f3f3; }
 
 .site-logo-img { border-color: #fff; }
 
-.toc-wrapper { border-color: #e3e3e3; }
+.toc-wrapper { border-color: #f5f6f6; }
 
 .toc-wrapper h2 { color: #586e75; background-color: #fafafa; }
 
 .toc-wrapper li ol { background-color: #fff; }
 
-.toc-wrapper li a:hover, .toc-wrapper li a:focus { border-bottom: 1px dotted #d9d9d9; }
+.toc-wrapper li a:hover, .toc-wrapper li a:focus { border-bottom: 1px dotted #f2f3f3; }
 
 #menu-toggle { color: #fff; }
 
@@ -82,22 +93,22 @@ blockquote { background-color: #e7f1fc; border-left-color: #0a71e2; }
 
 #markdown-toc { color: #586e75; }
 
-.pagination li a { color: #8d8d8d; border-color: #d9d9d9; }
+.pagination li a { color: #989a9c; border-color: #f2f3f3; }
 
-.pagination li a.current, .pagination li a.current.disabled { background-color: #8d8d8d; color: #fff; }
+.pagination li a.current, .pagination li a.current.disabled { background-color: #989a9c; color: #fff; }
 
-.pagination li a.disabled { color: #d9d9d9; }
+.pagination li a.disabled { color: #f2f3f3; }
 
-.search-input { border-color: #d9d9d9; }
+.search-input { border-color: #f2f3f3; }
 
 /* ========================================================================== Page ========================================================================== */
-.page-previous, .page-next { color: #404040; }
+.page-previous, .page-next { color: #3d4144; }
 
 /* ========================================================================== Entries (Posts, collection documents, etc.) ========================================================================== */
 .entry a:hover { color: #0a71e2; }
 
 /* ========================================================================== Tables ========================================================================== */
-th, td { border-bottom-color: #d9d9d9; }
+th, td { border-bottom-color: #f2f3f3; }
 
 /* ========================================================================== NOTICE TEXT BLOCKS ========================================================================== */
 /* Default notice */
@@ -135,7 +146,7 @@ th, td { border-bottom-color: #d9d9d9; }
 .notice--accent ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Primary notice */
-.notice--primary { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: white; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.25); box-shadow: 0 1px 1px rgba(255, 255, 255, 0.25); }
+.notice--primary { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #d4d6d8; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(212, 214, 216, 0.25); box-shadow: 0 1px 1px rgba(212, 214, 216, 0.25); }
 
 .notice--primary h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; }
 
@@ -145,14 +156,14 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .notice--primary h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 
-.notice--primary a { color: #404040; }
+.notice--primary a { color: #353636; }
 
-.notice--primary a:hover { color: #666666; }
+.notice--primary a:hover { color: #555656; }
 
 .notice--primary ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Warning notice */
-.notice--warning { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #fff0b3; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(255, 240, 179, 0.25); box-shadow: 0 1px 1px rgba(255, 240, 179, 0.25); }
+.notice--warning { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #f3d9b4; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(243, 217, 180, 0.25); box-shadow: 0 1px 1px rgba(243, 217, 180, 0.25); }
 
 .notice--warning h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; }
 
@@ -162,14 +173,14 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .notice--warning h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 
-.notice--warning a { color: #403c2d; }
+.notice--warning a { color: #3d362d; }
 
-.notice--warning a:hover { color: #666048; }
+.notice--warning a:hover { color: #615748; }
 
 .notice--warning ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Success notice */
-.notice--success { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #c2eecd; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(194, 238, 205, 0.25); box-shadow: 0 1px 1px rgba(194, 238, 205, 0.25); }
+.notice--success { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #c5e4c5; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(197, 228, 197, 0.25); box-shadow: 0 1px 1px rgba(197, 228, 197, 0.25); }
 
 .notice--success h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; }
 
@@ -179,14 +190,14 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .notice--success h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 
-.notice--success a { color: #313c33; }
+.notice--success a { color: #313931; }
 
-.notice--success a:hover { color: #4e5f52; }
+.notice--success a:hover { color: #4f5b4f; }
 
 .notice--success ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Danger notice */
-.notice--danger { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #ffc4c1; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(255, 196, 193, 0.25); box-shadow: 0 1px 1px rgba(255, 196, 193, 0.25); }
+.notice--danger { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #facfce; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(250, 207, 206, 0.25); box-shadow: 0 1px 1px rgba(250, 207, 206, 0.25); }
 
 .notice--danger h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; }
 
@@ -196,14 +207,14 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .notice--danger h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 
-.notice--danger a { color: #403130; }
+.notice--danger a { color: #3f3434; }
 
-.notice--danger a:hover { color: #664e4d; }
+.notice--danger a:hover { color: #645352; }
 
 .notice--danger ul:last-child { margin-bottom: 0; /* override*/ }
 
 /* Info notice */
-.notice--info { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #ceeffe; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(206, 239, 254, 0.25); box-shadow: 0 1px 1px rgba(206, 239, 254, 0.25); }
+.notice--info { margin: 2em 0 !important; /* override*/ padding: 1em; background-color: #c4e1ea; color: #000; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(196, 225, 234, 0.25); box-shadow: 0 1px 1px rgba(196, 225, 234, 0.25); }
 
 .notice--info h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; }
 
@@ -213,9 +224,9 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .notice--info h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
 
-.notice--info a { color: #343c40; }
+.notice--info a { color: #31383b; }
 
-.notice--info a:hover { color: #526066; }
+.notice--info a:hover { color: #4e5a5e; }
 
 .notice--info ul:last-child { margin-bottom: 0; /* override*/ }
 
@@ -226,11 +237,11 @@ th, td { border-bottom-color: #d9d9d9; }
 /* ========================================================================== BUTTONS ========================================================================== */
 .btn { /* button colors */ }
 
-.btn--primary { background-color: #fff; color: #000; }
+.btn--primary { background-color: #6f777d; color: #fff; }
 
-.btn--primary:hover { background-color: #cccccc; color: #000; }
+.btn--primary:hover { background-color: #595f64; color: #fff; }
 
-.btn--primary:visited { background-color: #fff; color: #000; }
+.btn--primary:visited { background-color: #6f777d; color: #fff; }
 
 .btn--accent { background-color: #0a71e2; color: #fff; }
 
@@ -238,7 +249,7 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .btn--accent:visited { background-color: #0a71e2; color: #fff; }
 
-.btn--inverse { background-color: #fff; color: #000; border: 1px solid #d9d9d9; }
+.btn--inverse { background-color: #fff; color: #000; border: 1px solid #f2f3f3; }
 
 .btn--inverse:hover { background-color: #cccccc; color: #000; }
 
@@ -250,29 +261,29 @@ th, td { border-bottom-color: #d9d9d9; }
 
 .btn--light-outline:visited { background-color: transparent; color: #fff; }
 
-.btn--success { background-color: #34c759; color: #fff; }
+.btn--success { background-color: #3fa63f; color: #fff; }
 
-.btn--success:hover { background-color: #2a9f47; color: #fff; }
+.btn--success:hover { background-color: #328532; color: #fff; }
 
-.btn--success:visited { background-color: #34c759; color: #fff; }
+.btn--success:visited { background-color: #3fa63f; color: #fff; }
 
-.btn--warning { background-color: #ffcc00; color: #000; }
+.btn--warning { background-color: #d67f05; color: #fff; }
 
-.btn--warning:hover { background-color: #cca300; color: #fff; }
+.btn--warning:hover { background-color: #ab6604; color: #fff; }
 
-.btn--warning:visited { background-color: #ffcc00; color: #000; }
+.btn--warning:visited { background-color: #d67f05; color: #fff; }
 
-.btn--danger { background-color: #ff3b30; color: #fff; }
+.btn--danger { background-color: #ee5f5b; color: #fff; }
 
-.btn--danger:hover { background-color: #cc2f26; color: #fff; }
+.btn--danger:hover { background-color: #be4c49; color: #fff; }
 
-.btn--danger:visited { background-color: #ff3b30; color: #fff; }
+.btn--danger:visited { background-color: #ee5f5b; color: #fff; }
 
-.btn--info { background-color: #5ac8fa; color: #fff; }
+.btn--info { background-color: #3b9cba; color: #fff; }
 
-.btn--info:hover { background-color: #48a0c8; color: #fff; }
+.btn--info:hover { background-color: #2f7d95; color: #fff; }
 
-.btn--info:visited { background-color: #5ac8fa; color: #fff; }
+.btn--info:visited { background-color: #3b9cba; color: #fff; }
 
 .btn--facebook { background-color: #3b5998; color: #fff; }
 

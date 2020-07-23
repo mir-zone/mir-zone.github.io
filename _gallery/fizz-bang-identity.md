@@ -1,9 +1,9 @@
 ---
 title: "Fizz Bang Identity"
 excerpt: "Fizz Bang design system including logo mark, website design, and branding applications."
-image:
-  path: /assets/images/unsplash-gallery-image-2.jpg
-  thumbnail: assets/images/unsplash-gallery-image-2-th.jpg
+header:
+  image: /assets/images/unsplash-gallery-image-2.jpg
+  teaser: assets/images/unsplash-gallery-image-2-th.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

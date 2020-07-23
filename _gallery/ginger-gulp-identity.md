@@ -1,9 +1,9 @@
 ---
 title: "Ginger Gulp Identity"
 excerpt: "Ginger Gulp design system including logo mark, website design, and branding applications."
-image:
-  path: /assets/images/unsplash-gallery-image-3.jpg
-  thumbnail: assets/images/unsplash-gallery-image-3-th.jpg
+header:
+  overlay_image: /assets/images/unsplash-gallery-image-3.jpg
+  teaser: assets/images/unsplash-gallery-image-3-th.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250

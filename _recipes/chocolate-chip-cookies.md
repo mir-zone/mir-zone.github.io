@@ -1,9 +1,9 @@
 ---
 title: "Chocolate Chip Cookies"
 tagline: ## 이미지 상위에 멘트 작성.
-image: 
-  path: /assets/images/chocolate-chip-cookies-lg.jpg
-  thumbnail: /assets/images/chocolate-chip-cookies-400x200.jpg
+header: 
+  overlay_image: /assets/images/chocolate-chip-cookies-lg.jpg
+  teaser: /assets/images/chocolate-chip-cookies-400x200.jpg
   caption: "Photo from [Pexels](https://www.pexels.com)"
 ---
 

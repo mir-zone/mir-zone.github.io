@@ -18,24 +18,53 @@
   letter-spacing: -2px;
 }
 
-.page-image {
+.page__hero {
   position: relative;
-  margin-top: (-1 * $site-logo-height) / 2;
+
   margin-bottom: 2em;
   z-index: 1;
+  @include clearfix;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
 
-  .wrapper {
-    padding-top: 2em;
-    padding-left: 1em;
-    padding-right: 1em;
-
+  &--overlay {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 2em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-  
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+
     a {
       color: #fff;
+    }
+    @include breakpoint($small) {
+      margin-top: (-1.7 * $site-logo-height) / 2;
+    }
+
+    @include breakpoint($medium) {
+      margin-top: (-1.9 * $site-logo-height) / 2;
+    }
+  
+    @include breakpoint($large) {
+      margin-top: (-2.1 * $site-logo-height) / 2;
+    }
+
+    .wrapper {
+      padding-top: 2em;
+      padding-left: 1em;
+      padding-right: 1em;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
     }
 
     .page__title,
@@ -50,51 +79,79 @@
     .page__lead {
       max-width: $medium;
     }
-    .entry-feature-image{
-      width: 100%;
+
+    .page__title {
+      @include fluid-type($min-vw, $max-vw, 48px, 60px);
+      margin-bottom: 0.5em;
+      font-family: $title-font-family;
+      font-weight: $page-title-weight;
+      font-style: italic;
+      letter-spacing: -2px;
     }
   }
-
-  @include breakpoint($medium) {
-    margin-top: (-1.5 * $site-logo-height) / 2;
-  }
-
-  @include breakpoint($large) {
-    margin-top: (-2 * $site-logo-height) / 2;
-  }
-
-
 }
 
-.page-image-caption {
+.page__hero-image {
+  width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+
+      @include breakpoint($small) {
+      margin-top: (-1.7 * $site-logo-height) / 2;
+    }
+
+    @include breakpoint($medium) {
+      margin-top: (-1.9 * $site-logo-height) / 2;
+    }
+  
+    @include breakpoint($large) {
+      margin-top: (-2.1 * $site-logo-height) / 2;
+    }
+}
+
+.page__hero-caption,
+.page__hero-excerpt {
   position: absolute;
   bottom: 0;
   right: 0;
   margin: 0 auto;
-  padding: 0.25em 0.5em;
+  padding: 2px 5px;
   color: #fff;
-  font-size: 0.75rem;
+  font-family: $caption-font-family;
+  font-size: $type-size-7;
   background: #000;
   text-align: right;
   z-index: 5;
   opacity: 0.5;
-  border-radius: 4px 0 0 0;
+  border-radius: $border-radius 0 0 0;
 
-  > * {
-    margin: 0;
-    padding: 0;
+  @include breakpoint($large) {
+    padding: 5px 10px;
   }
 
   a {
     color: #fff;
+    text-decoration: none;
   }
+}
+.page__hero-excerpt {
+  font-family: $global-font-family;
+  font-size: $type-size-6;
+  font-weight: 100;
 }
 
 .page-sidebar {
   font-size: 0.75rem;
+  margin-bottom: 1em;
 
   @include breakpoint($large) {
     text-align: center;
+    float: left; // display: grid fallback
+    width: 18%; // display: grid fallback
+  }
+  
+  @supports (display: grid) {
+    width: auto;
   }
 
   .page-date,
@@ -117,6 +174,15 @@
     @include breakpoint($large) {
       content: "";
       padding: 0;
+    }
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -176,6 +242,8 @@
 .page-share {
   margin-top: 2em;
   margin-bottom: 2em;
+  // display: grid fallback
+  clear: both;
 }
 
 .page-comments {
@@ -246,7 +314,8 @@
   }
 }
 
-.layout--post {
+.layout--post,
+.layout--single {
   .page-wrapper {
     @include breakpoint($large) {
       display: grid;
@@ -266,31 +335,9 @@
     }
   }
 
-  .page-sidebar {
-    margin-bottom: 1em;
-
-    @include breakpoint($large) {
-      float: left; // display: grid fallback
-      width: 18%; // display: grid fallback
-    }
-
-    @supports (display: grid) {
-      width: auto;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
-
   .page-content {
     @include breakpoint($large) {
-      float: right; // display: grid fallback
+      // float: right; // display: grid fallback
       width: 78%; // display: grid fallback
       min-width: 0;
     }
@@ -299,11 +346,6 @@
       width: auto;
       margin: 0;
     }
-  }
-
-  .page-share {
-    // display: grid fallback
-    clear: both;
   }
 }
 

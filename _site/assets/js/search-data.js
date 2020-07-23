@@ -200,7 +200,7 @@ var store = [{
         "url": "http://localhost:4000/media/2010/09/10/post-twitter-embeds.html"
       },{
         "title": "Layout: Post with Table Of Contents",
-        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;h2 id=\"toc-toggle\" class=\"no_toc\"&gt; Table of Contents &lt;i class=\"toc-toggle-icon fas fa-chevron-down\"&gt;&lt;/i&gt;&lt;/h2&gt;1. toc{:toc} HTML Elements Below is are some HTML elements. Check the source code to see the many embedded elements within...","categories": ["Layout"],
+        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; &lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code to...","categories": ["Layout"],
         "tags": ["table of contents"],
         "url": "http://localhost:4000/layout/2012/03/04/layout-table-of-contents.html"
       },{
@@ -268,6 +268,31 @@ var store = [{
         "excerpt":"This post has YAML Front Matter of hidden: true and should not appear in paginator.posts. ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/2018/02/25/hidden-post.html"
+      },{
+        "title": "햇빛 과 소낙비",
+        "excerpt":"햇빛과 소낙비   정연복 - 쨍쨍 햇빛 좋을 땐 소낙비가 가만히 물러서 있다 지금은 너의 시간이니까 맘껏 힘을 쓰라고. 주룩주룩 소낙비 내리는 날엔 햇빛이 슬며시 자취를 감춘다 오늘은 네 날이라며 제 빛을 드러내지 않는다. 이렇게 햇빛과 소낙비 서로 숨바꼭질하다가도 이따금 반갑게 만난다 하늘의 영롱한 무지개로. ","categories": ["poems"],
+        "tags": ["비"],
+        "url": "http://localhost:4000/poems/2020/06/25/poetical-works01.html"
+      },{
+        "title": "이렇게 비가 내리면",
+        "excerpt":"이렇게 비가 내리면 한유경 - 언제나 한 곳을 바라보는 그대눈부셔 가끔은 고개 숙인 그대그대 바라보는 내 마음은 알고 있는지요? 오늘도 그대 보기 위해 바삐 달려왔구먼그대의 마음 변함이 없으니나 오늘도 그대의 모습만 담아가오 나 바라봐 주지 않아도 좋으니 그대의 태양이 당신을 한없는 사랑으로 비추어주길 바라오 이렇게 비가 내리는 날 오늘만은 그대...","categories": ["poems"],
+        "tags": ["비"],
+        "url": "http://localhost:4000/poems/2020/06/26/poetical-works00.html"
+      },{
+        "title": "한여름, 숲에 눕다",
+        "excerpt":"한여름, 숲에 눕다 원숙희 사랑을 받지 못해 서글픈 날에는사랑을 잊지 못해 애달픈 날에는숲을 이불 삼아 풀베게를 베고 누워요 지나가는 바람은 지나가게몰려다니는 바람은 몰려다니게그냥 그대로 놔둔 채달은 어둠의 조각보 접어지상에 빛을 심고별들은 가난한 지붕에 박꽃같은 등불 매다네요 아, 혈관에 떠도는 습관을 꺼내보니바람은 그저 바람이었고요짭짭허게 나눈 사랑은어느새 머나먼 남이었어요 이젠 따스한 숲에...","categories": ["poems"],
+        "tags": ["여름"],
+        "url": "http://localhost:4000/poems/2020/06/26/poetical-works02.html"
+      },{
+        "title": "Happy Birthday to 정민!",
+        "excerpt":" 정민C ~~!!! 05월 07일 47번째 생일을 축하합니다. 항상 당신과 함께한 시간을 신께 감사드리며, 언제나 밝고 명랑하게 가족을 위하여 헌신하는 당신께 이렇게 두손모아 감사드립니다. Only ONE Jung MIN ","categories": ["anniversary"],
+        "tags": ["생일"],
+        "url": "http://localhost:4000/anniversary/2020/06/27/Happy-Birthday.html"
+      },{
+        "title": "잠깐의 여유...",
+        "excerpt":"  잠깐의 생각이 머무는 시간어떤때는 내가 원하는 것이무엇인지도 모르면서바라고만 있을 때가 있다. 언제나 생각만이 깊어지는 시간무엇을 생각하는 지도 모르는 채시간만이 저만치 스쳐 지나가고 있다. 언제나 인지 못하는 소중한 순간을나는 언제나 기억할 수 있을지 ~~~ ","categories": ["think"],
+        "tags": ["비","여유로운 마음"],
+        "url": "http://localhost:4000/think/2020/07/13/video-thought.html"
       },{
         "title": "Chocolate Chip Cookies",
         "excerpt":"A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient. The traditional recipe combines a dough composed of butter and both brown and white sugar with semi-sweet chocolate chips. Variations include recipes with other types of chocolate as...","categories": [],

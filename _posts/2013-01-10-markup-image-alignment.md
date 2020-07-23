@@ -1,8 +1,8 @@
 ---
 title: "Markup: Image Alignment"
-image: 
-  path: /assets/images/so-simple-sample-image-5.jpg
-  thumbnail: /assets/images/so-simple-sample-image-5-400x200.jpg
+header: 
+  image: /assets/images/so-simple-sample-image-5.jpg
+  teaser: /assets/images/so-simple-sample-image-5-400x200.jpg
   caption: "Photo from [WeGraphics](http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/)"
 categories:
   - Markup
