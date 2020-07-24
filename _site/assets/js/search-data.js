@@ -294,13 +294,13 @@ var store = [{
         "tags": ["여름"],
         "url": "http://localhost:4000/poems/poetical-works02/"
       },{
-        "title": "Happy Birthday to 정민!",
+        "title": "Happy Birthday to 정민 !!!",
         "excerpt":" 정민C ~~!!! 05월 07일 47번째 생일을 축하합니다. 항상 당신과 함께한 시간을 신께 감사드리며, 언제나 밝고 명랑하게 가족을 위하여 헌신하는 당신께 이렇게 두손모아 감사드립니다. Only ONE Jung MIN ","categories": ["anniversary"],
         "tags": ["생일"],
         "url": "http://localhost:4000/anniversary/Happy-Birthday/"
       },{
         "title": "잠깐의 여유...",
-        "excerpt":"  잠깐의 생각이 머무는 시간어떤때는 내가 원하는 것이무엇인지도 모르면서바라고만 있을 때가 있다. 언제나 생각만이 깊어지는 시간무엇을 생각하는 지도 모르는 채시간만이 저만치 스쳐 지나가고 있다. 언제나 인지 못하는 소중한 순간을나는 언제나 기억할 수 있을지 ~~~ ","categories": ["think"],
+        "excerpt":"  잠깐의 생각이 머무는 시간 어떤때는 내가 원하는 것이 무엇인지도 모르면서 바라고만 있을 때가 있다. 언제나 생각만이 깊어지는 시간 무엇을 생각하는 지도 모르는 채 시간만이 저만치 스쳐 지나가고 있다. 순간순간 인지 못하는 소중한 순간을 나는 언제나 기억할 수 있을지 ~~~ ","categories": ["think"],
         "tags": ["비","여유로운 마음"],
         "url": "http://localhost:4000/think/video-thought/"
       },{

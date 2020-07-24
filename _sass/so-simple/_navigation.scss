@@ -505,6 +505,12 @@
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
 
+  @include breakpoint($large) {
+    position: relative;
+    z-index: 20;
+    top:6em;
+  }
+
   .nav__title {
     color: #fff;
     font-size: $type-size-6;
@@ -537,9 +543,11 @@
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
-
+    text-decoration: none;
+    
     &:hover {
       color: $text-color;
+      text-decoration: underline;
     }
   }
 

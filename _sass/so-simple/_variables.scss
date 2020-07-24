@@ -38,9 +38,12 @@ $h6-min: ($base-font-size / $modular-scale-1) !default;
 $h6-max: ($base-font-size / $modular-scale-2) !default;
 
 /* Font Families */
-$serif-font-family: "Lora", serif !default;
-$sans-serif-font-family: "Source Sans Pro", sans-serif !default;
+$serif-font-family: "Lora", "Nanum+Gothic" !default;
+$sans-serif-font-family: "Source Sans Pro", "Nanum+Gothic" !default;
+/* $serif-font-family: "Lora", serif !default;
+   $sans-serif-font-family: "Source Sans Pro", sans-serif !default; */
 $monospace-font-family: Menlo, Consolas, Monaco, "Courier New", Courier, monospace !default;
+$user1-font-family: "Lora", "Gaegu" !default;
 
 $base-font-family: $sans-serif-font-family !default;
 $headline-font-family: $sans-serif-font-family !default;

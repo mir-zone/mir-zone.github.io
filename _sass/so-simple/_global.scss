@@ -17,6 +17,7 @@
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  font-family: $user1-font-family;
 
   @include breakpoint($medium) {
     display: none;
