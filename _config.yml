@@ -40,16 +40,41 @@ disqus:
 twitter:
   username: mmistakes # site's Twitter username
 
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 # Liquid
+strict_front_matter: true
 liquid:
   error_mode: strict
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 feed:
   path: atom.xml
 
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+
 # Pagination - https://jekyllrb.com/docs/pagination/
+# Outputting
+permalink: /:categories/:title/
 paginate: 10
 paginate_path: /page:num/
 
@@ -103,6 +128,7 @@ exclude:
 #   - vendor/ruby/
 
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
@@ -191,6 +217,8 @@ defaults:
 author:
   name: Mir
   avatar: /assets/images/mir.jpg
+  bio: "Pleasant space..."
+  location: "Republic of Korea"
   email: 
   twitter: 
   links:

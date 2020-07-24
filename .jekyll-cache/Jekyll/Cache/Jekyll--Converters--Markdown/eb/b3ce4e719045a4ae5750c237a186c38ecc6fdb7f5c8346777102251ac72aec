@@ -1,0 +1,50 @@
+I"�<p>Text for UI elements, <code class="language-plaintext highlighter-rouge">_layouts</code>, and <code class="language-plaintext highlighter-rouge">_includes</code> grouped together as a set of translation keys. This is by no means a full-on i18n solution, but it does help make customizing theme text a bit easier.</p>
+
+<p>The English<sup id="fnref:yaml-anchors" role="doc-noteref"><a href="#fn:yaml-anchors" class="footnote">1</a></sup> main keys in <a href="https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml"><code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code></a> are translated in the following languages:</p>
+
+<ul>
+  <li>Brazilian Portuguese (Português brasileiro)</li>
+  <li>Catalan</li>
+  <li>Chinese</li>
+  <li>Danish</li>
+  <li>Dutch</li>
+  <li>Finnish</li>
+  <li>French (Français)</li>
+  <li>German (Deutsch)</li>
+  <li>Greek</li>
+  <li>Hungarian</li>
+  <li>Indonesian</li>
+  <li>Irish (Gaeilge)</li>
+  <li>Italian (Italiano)</li>
+  <li>Korean</li>
+  <li>Japanese</li>
+  <li>Malayalam</li>
+  <li>Myanmar (Burmese)</li>
+  <li>Nepali (Nepalese)</li>
+  <li>Polish</li>
+  <li>Persian (فارسی)</li>
+  <li>Romanian</li>
+  <li>Russian</li>
+  <li>Slovak</li>
+  <li>Spanish (Español)</li>
+  <li>Swedish</li>
+  <li>Thai</li>
+  <li>Turkish (Türkçe)</li>
+  <li>Vietnamese</li>
+</ul>
+
+<p>If you’re are interested in localizing them into other languages feel free to submit a pull request and I will be happy to look it over.</p>
+
+<p>Many of the label based keys like <code class="language-plaintext highlighter-rouge">meta_label</code>, <code class="language-plaintext highlighter-rouge">categories_label</code>, <code class="language-plaintext highlighter-rouge">tags_label</code>, <code class="language-plaintext highlighter-rouge">share_on_label</code>, and <code class="language-plaintext highlighter-rouge">follow_label</code> can be left blank if you’d like to omit them from view. It really depends on you and if you want an even more minimal look to your site.</p>
+
+<p><img src="/assets/images/mm-ui-text-labels.jpg" alt="UI text labels" /></p>
+
+<p class="notice--warning"><strong>Note:</strong> The theme comes with localized text in English (<code class="language-plaintext highlighter-rouge">en</code>, <code class="language-plaintext highlighter-rouge">en-US</code>, <code class="language-plaintext highlighter-rouge">en-GB</code>). If you change <code class="language-plaintext highlighter-rouge">locale</code> in <code class="language-plaintext highlighter-rouge">_config.yml</code> to something else, most of the UI text will go blank. Be sure to add the corresponding locale key and translated text to <code class="language-plaintext highlighter-rouge">_data/ui-text.yml</code> to avoid this.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:yaml-anchors" role="doc-endnote">
+      <p><code class="language-plaintext highlighter-rouge">en-US</code>, and <code class="language-plaintext highlighter-rouge">en-GB</code> use <a href="http://www.yaml.org/spec/1.2/spec.html#id2785586">YAML anchors</a> to reference the values in <code class="language-plaintext highlighter-rouge">en</code> as to not repeat them. <a href="#fnref:yaml-anchors" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

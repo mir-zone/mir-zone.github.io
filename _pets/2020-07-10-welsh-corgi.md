@@ -20,6 +20,7 @@ gallery:
   - url: /assets/studio/mm-pets-page-unsplash-005.jpg
     image_path: /assets/studio/mm-pets-page-unsplash-005-th.jpg
     alt: "placeholder image 3"
+toc: true
 ---
 
 {% include gallery caption="click!!! - cute pet photo." %}
