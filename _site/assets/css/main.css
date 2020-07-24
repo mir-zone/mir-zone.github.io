@@ -467,6 +467,12 @@ tr, td, th { vertical-align: middle; }
 
 @media screen and (min-width: 1280px) { .page-title { font-size: 60px; } }
 
+@media (min-width: 64em) { .page-main { display: grid; grid-column-gap: 3em; grid-row-gap: 0; grid-template-columns: 175px 1fr; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; } }
+
+@media (min-width: 64em) { .page-content { width: 78%; min-width: 0; } }
+
+@supports (display: grid) { .page-content { width: auto; margin: 0; } }
+
 .page__hero { position: relative; margin-bottom: 2em; z-index: 1; clear: both; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.25s; animation-delay: 0.25s; }
 
 .page__hero::after { clear: both; content: ""; display: table; }
@@ -515,18 +521,6 @@ tr, td, th { vertical-align: middle; }
 
 .page__hero-excerpt { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; font-weight: 100; }
 
-.page-taxonomies-title { display: inline; padding-right: 0.5em; font-size: 1rem; font-weight: normal; text-transform: uppercase; }
-
-@media (min-width: 64em) { .page-taxonomies-title { display: inline-block; margin: 1.5em 0 0.5em; padding: 0; font-size: 0.75rem; font-weight: normal; text-transform: uppercase; } }
-
-.page-taxonomies { display: inline; margin-right: 1em; padding: 0; list-style: none; }
-
-@media (min-width: 64em) { .page-taxonomies { display: block; margin: 0 0 1.5em 0; } }
-
-.page-taxonomy { display: inline; }
-
-.page-taxonomy:not(:last-child)::after { content: ", "; }
-
 .page-share { margin-top: 2em; margin-bottom: 2em; clear: both; }
 
 .page-comments { margin-bottom: 2em; }
@@ -549,14 +543,6 @@ tr, td, th { vertical-align: middle; }
 .layout--home .page-wrapper, .layout--posts .page-wrapper, .layout--categories .page-wrapper, .layout--tags .page-wrapper, .layout--category .page-wrapper, .layout--tag .page-wrapper, .layout--collection .page-wrapper, .layout--search .page-wrapper { max-width: 768px; }
 
 .layout--home .page-title, .layout--posts .page-title, .layout--categories .page-title, .layout--tags .page-title, .layout--category .page-title, .layout--tag .page-title, .layout--collection .page-title, .layout--search .page-title { text-align: center; }
-
-@media (min-width: 64em) { .layout--post .page-wrapper, .layout--single .page-wrapper { display: grid; grid-column-gap: 3em; grid-row-gap: 0; grid-template-columns: 175px 1fr; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; } }
-
-@media (min-width: 64em) { .layout--post .page-header, .layout--single .page-header { grid-column: 1 / -1; clear: both; } }
-
-@media (min-width: 64em) { .layout--post .page-content, .layout--single .page-content { width: 78%; min-width: 0; } }
-
-@supports (display: grid) { .layout--post .page-content, .layout--single .page-content { width: auto; margin: 0; } }
 
 .page--wide .page-wrapper { max-width: 1024px; }
 
@@ -915,6 +901,22 @@ figure.align-center figcaption { text-align: center; }
 .author__link { display: inline; padding-right: 0.5em; }
 
 @media (min-width: 64em) { .author__link { padding: 0.25em; } }
+
+.page-taxonomies-title { padding-right: 0.5em; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin: 0; }
+
+@media (min-width: 64em) { .page-taxonomies-title { margin: 1.5em 0 0.5em; padding: 0; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; align-items: center; text-align: center; margin: 0; } }
+
+.page-taxonomies { display: inline; margin-right: 1em; padding: 0; list-style: none; text-align: center; }
+
+@media (min-width: 64em) { .page-taxonomies { display: block; margin: 0 0 1.5em 0; } }
+
+.page-taxonomy { display: inline; align-items: center; text-align: center; }
+
+.page-taxonomy:not(:last-child)::after { content: ", "; }
+
+.page-taxonomy a { text-decoration: none; }
+
+.page-taxonomy a:hover { text-decoration: underline; }
 
 /* Wide Pages ========================================================================== */
 .wide .sidebar__right { margin-bottom: 1em; }

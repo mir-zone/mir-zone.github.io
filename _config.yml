@@ -138,6 +138,7 @@ defaults:
       layout: post
       comments: true
       share: true
+      author_profile: true
   # _pages
   - scope:
       path: "_pages"

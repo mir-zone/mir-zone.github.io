@@ -1,20 +1,20 @@
 ---
 layout: default
 ---
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+  {% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
 
 <main id="main" class="main-content" aria-label="Content">
   <article class="h-entry">
-    {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-      {% include page__hero.html %}
-    {% elsif page.header.video.id and page.header.video.provider %}
-      {% include page__hero_video.html %}
-    {% endif %}
-  
-    {% if page.url != "/" and site.breadcrumbs %}
-      {% unless paginator %}
-        {% include breadcrumbs.html %}
-      {% endunless %}
-    {% endif %}
     <div class="page-wrapper">
       <header class="page-header">
         {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -29,34 +29,35 @@ layout: default
           <h1 id="page-title" class="page-title"><br></h1>
         {% endif %}
       </header>
-
-      <div class="page-sidebar">
-        {% include sidebar.html %}
-      </div>
-
-      <div class="page-content">
-        {% if page.toc %}
-        <div class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-          <nav class="toc">
-            <h4 class="nav__title">
-              <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
-            {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
-          </nav>
-        </div>
-        {% endif %}
-        <div class="e-content">
-          {{ content }}
+      <div class="page-main">
+        <div class="page-sidebar">
+          {% include sidebar.html %}
         </div>
 
-        {% if page.share %}
-          {% include social-share.html %}
-        {% endif %}
+        <div class="page-content">
+          {% if page.toc %}
+          <div class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+            <nav class="toc">
+              <h4 class="nav__title">
+                <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+            </nav>
+          </div>
+          {% endif %}
+          <div class="e-content">
+            {{ content }}
+          </div>
 
-        {% if site.disqus.shortname %}
-          {% include disqus-comments.html %}
-        {% endif %}
+          {% if page.share %}
+            {% include social-share.html %}
+          {% endif %}
 
-        {% include post_pagination.html %}
+          {% if site.disqus.shortname %}
+            {% include disqus-comments.html %}
+          {% endif %}
+
+          {% include post_pagination.html %}
+        </div>
       </div>
     </div>
   </article>
