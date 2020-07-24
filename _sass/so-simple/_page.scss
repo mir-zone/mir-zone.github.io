@@ -140,68 +140,6 @@
   font-weight: 100;
 }
 
-.page-sidebar {
-  font-size: 0.75rem;
-  margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    text-align: center;
-    float: left; // display: grid fallback
-    width: 18%; // display: grid fallback
-  }
-  
-  @supports (display: grid) {
-    width: auto;
-  }
-
-  .page-date,
-  .read-time {
-    font-family: $meta-font-family;
-    font-style: italic;
-    white-space: nowrap;
-  }
-
-  .read-time {
-    @include breakpoint($large) {
-      display: block;
-    }
-  }
-
-  .read-time + .page-date::before {
-    content: "\2022";
-    padding: 0 0.5em;
-
-    @include breakpoint($large) {
-      content: "";
-      padding: 0;
-    }
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
-.page-author {
-  @include clearfix;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 1em;
-
-  @include breakpoint($large) {
-    display: block;
-  }
-}
-
 .page-taxonomies-title {
   display: inline;
   padding-right: 0.5em;

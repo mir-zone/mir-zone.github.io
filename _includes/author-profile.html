@@ -1,22 +1,29 @@
-{%- assign author = page.author | default: page.authors[0] | default: site.author -%}
-{%- assign author = site.data.authors[author] | default: author -%}
+{% assign author = page.author | default: page.authors[0] | default: site.author %}
+{% assign author = site.data.authors[author] | default: author %}
 
 <div class="page-author h-card p-author">
-  {%- if author.avatar -%}
-    {%- if author.avatar contains "://" -%}
-      {%- assign author_avatar = author.avatar -%}
-    {%- else -%}
-      {%- assign author_avatar = author.avatar | relative_url -%}
-    {%- endif -%}
-    <img src="{{ author_avatar }}" class="author__avatar u-photo" alt="{{ author.name }}">
-  {%- endif -%}
+  {% if author.avatar %}
+    <div class="author__avatar">
+      {% if author.home %}
+        <a href="{{ author.home | relative_url }}">
+          <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+        </a>
+      {% else %}
+        <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}">
+      {% endif %}
+    </div>
+  {% endif %}
 
-  <div class="author-info">
-    {%- if author.name -%}
-      <div class="author__name">
+  <div class="author__content">
+    <div class="author__name">
+      {% if author.home %}
+        <a href="{{ author_link }}">
+          {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
+        </a>
+      {% else %}
         {% if site.data.text[site.locale].by %}<em>{{ site.data.text[site.locale].by }}</em> {% endif %}<span class="p-name">{{ author.name }}</span>
-      </div>
-    {%- endif -%}
+      {% endif %}
+    </div>
     {%- if author.links -%}
       <ul class="author__links">
         {%- for link in author.links -%}
