@@ -4,7 +4,8 @@ layout: splash
 limit: 10
 excerpt: "A simple and clean responsive Jekyll theme for words and photos."
 show_excerpts: true
-entries_layout: list
+## entries_layout: list
+## entries_layout: grid
 permalink: /
 hidden: 
 header:

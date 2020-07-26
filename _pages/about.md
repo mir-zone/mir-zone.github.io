@@ -24,6 +24,8 @@ layouts2_gallery:
     alt: "About think"
 last_modified_at: 2020-05-01T10:15:22-04:00
 toc: true
+## toc_lable: "my table of Contents"
+## toc_icon: "cog"
 ---
 
 First of all, thanks to Michael Rose for providing the theme.  

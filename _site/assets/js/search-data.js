@@ -210,7 +210,7 @@ var store = [{
         "url": "http://localhost:4000/media/post-twitter-embeds/"
       },{
         "title": "Layout: Post with Table Of Contents",
-        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; &lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code to...","categories": ["Layout"],
+        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; About me&lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code...","categories": ["Layout"],
         "tags": ["table of contents"],
         "url": "http://localhost:4000/layout/layout-table-of-contents/"
       },{
