@@ -3,8 +3,7 @@ title: Recipes
 layout: collection
 permalink: /recipes-archive/
 collection: recipes
-entries_layout: grid
-entries_layout: "list"
+entries_layout: grid #option "list", "grid"
 author_profile: false
 classes: ""
 excerpt: >

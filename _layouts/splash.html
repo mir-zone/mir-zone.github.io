@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
 
 <main id="main" class="main-content" aria-label="Content">
   <article>
-    {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-      {% include page__hero.html %}
-    {% elsif page.header.video.id and page.header.video.provider %}
-      {% include page__hero_video.html %}
-    {% endif %}
     <div class="page-wrapper">
       <header class="page-header">
         {% if page.id %}
@@ -25,8 +25,8 @@ layout: default
           {% endif %}
         {% endunless %}
         {% if page_image %}
-        <h1 id="page-title" class="page-title"><br></h1>
-      {% endif %}
+          <h1 id="page-title" class="page-title"><br></h1>
+        {% endif %}
       </header>
       <section class="page-content" itemprop="text">
         {{ content }}
