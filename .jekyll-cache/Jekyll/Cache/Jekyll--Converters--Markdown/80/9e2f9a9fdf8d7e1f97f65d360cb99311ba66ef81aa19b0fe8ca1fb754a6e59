@@ -1,0 +1,33 @@
+I"Ù<ul class="toc__menu">
+  <li><a href="#customizing">Customizing</a>
+    <ul>
+      <li><a href="#paragraph-indention">Paragraph indention</a></li>
+      <li><a href="#font-stacks">Font stacks</a>
+        <ul>
+          <li><a href="#typography-from-older-versions">Typography from older versions</a></li>
+        </ul>
+      </li>
+      <li><a href="#type-scale">Type scale</a></li>
+      <li><a href="#colors">Colors</a>
+        <ul>
+          <li><a href="#syntax-highlighting">Syntax highlighting</a>
+            <ul>
+              <li><a href="#default">Default</a></li>
+              <li><a href="#solarized-light">Solarized light</a></li>
+              <li><a href="#contrast">Contrast</a></li>
+              <li><a href="#dark">Dark</a></li>
+              <li><a href="#dirt">Dirt</a></li>
+              <li><a href="#dracula">Dracula</a></li>
+              <li><a href="#neon">Neon</a></li>
+              <li><a href="#plum">Plum</a></li>
+              <li><a href="#sunrise">Sunrise</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="#breakpoints-and-grid-stuff">Breakpoints and grid stuff</a></li>
+      <li><a href="#disabling-animations">Disabling animations</a></li>
+    </ul>
+  </li>
+</ul>
+:ET

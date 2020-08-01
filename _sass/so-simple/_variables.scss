@@ -7,6 +7,8 @@ $small: 320px !default;
 $medium: 768px !default;
 $large: 1024px !default;
 $xlarge: 1280px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
 
 /* Fluid type */
 $base-font-size: 16px !default;

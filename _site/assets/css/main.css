@@ -339,6 +339,23 @@ figcaption a { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
 
 figcaption a:hover { color: #235e70; }
 
+/* Navigation lists ========================================================================== */
+/** Removes margins, padding, and bullet points from navigation lists Example usage: <nav> <ul> <li><a href="#link-1">Link 1</a></li> <li><a href="#link-2">Link 2</a></li> <li><a href="#link-3">Link 3</a></li> </ul> </nav> */
+nav { /* override white-space for nested lists */ }
+
+nav ul { margin: 0; padding: 0; }
+
+nav li { list-style: none; }
+
+nav a { text-decoration: none; }
+
+nav ul li, nav ol li { margin-bottom: 0; }
+
+nav li ul, nav li ol { margin-top: 0; }
+
+/* Global animation transition ========================================================================== */
+b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a, tr, td, form button, input[type="submit"], .btn, .highlight, .archive__item-teaser { -webkit-transition: all 0.4s ease; transition: all 0.4s ease; }
+
 /* ========================================================================== Tables ========================================================================== */
 table { width: 100%; border-collapse: collapse; /* For Firefox to horizontally scroll wider tables */ word-break: normal; word-break: keep-all; }
 
@@ -484,7 +501,21 @@ tr, td, th { vertical-align: middle; }
 
 .toc-wrapper li ol { padding-left: 0.5rem; list-style-type: lower-roman; }
 
-/* ============================================================= Page ============================================================= */
+/* ========================================================================== SINGLE PAGE/POST ========================================================================== */
+#main { clear: both; margin-left: auto; margin-right: auto; padding-left: 2em; padding-right: 2em; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; max-width: 100%; -webkit-animation-delay: 0.15s; animation-delay: 0.15s; }
+
+#main::after { clear: both; content: ""; display: table; }
+
+@media (min-width: 80em) { #main { max-width: 1280px; } }
+
+.page { margin: 0 auto; }
+
+@media (min-width: 64em) { .page { padding-right: 200px; } }
+
+.page .page__inner-wrap { float: left; margin-top: 1em; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
+
+.page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
+
 .page-wrapper { margin: 0 auto; padding-left: 1em; padding-right: 1em; max-width: 1024px; }
 
 .page-title { margin-bottom: 0.5em; font-family: "Lora", "Nanum+Gothic"; font-weight: bold; font-style: italic; letter-spacing: -2px; }
@@ -867,9 +898,9 @@ figure.align-center figcaption { text-align: center; }
 
 .sidebar::after { clear: both; content: ""; display: table; }
 
-@media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } .sidebar:hover { opacity: 1; } .sidebar.sticky { overflow-y: auto; /* calculate height of nav list viewport height - nav height - masthead x-padding */ max-height: calc(100vh - 2em - 2em); } }
+@media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } .sidebar:hover { opacity: 1; } .sidebar.sticky { /* calculate height of nav list viewport height - nav height - masthead x-padding */ max-height: calc(150vh - 2em - 2em); } }
 
-@media (min-width: 80em) { .sidebar { width: calc(300px - 1em); } }
+@media (min-width: 80em) { .sidebar { float: left; width: calc(200px - 0.5em); opacity: 0.75; } }
 
 .sidebar > * { margin-top: 1em; margin-bottom: 1em; }
 
@@ -883,9 +914,9 @@ figure.align-center figcaption { text-align: center; }
 
 .sidebar__right { margin-bottom: 1em; }
 
-@media (min-width: 64em) { .sidebar__right { position: absolute; float: right; top: 25em; right: 5em; width: 200px; padding-left: 1em; z-index: 10; } .sidebar__right.sticky { clear: both; position: -webkit-sticky; position: sticky; top: 2em; float: right; } .sidebar__right.sticky::after { clear: both; content: ""; display: table; } }
+@media (min-width: 64em) { .sidebar__right { position: absolute; top: 26em; right: 1em; width: 200px; padding-left: 1em; z-index: 10; } .sidebar__right.sticky { clear: both; position: -webkit-sticky; position: sticky; top: 2em; float: right; } .sidebar__right.sticky::after { clear: both; content: ""; display: table; } }
 
-@media (min-width: 80em) { .sidebar__right { width: 200px; right: 10em; } }
+@media (min-width: 80em) { .sidebar__right { width: 200px; right: 1em; } }
 
 @media (min-width: 64em) { .splash .sidebar__right { position: relative; float: right; margin-right: 0; } }
 
@@ -1075,8 +1106,6 @@ figure.align-center figcaption { text-align: center; }
 /* Table of contents navigation ========================================================================== */
 .toc { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; color: #7a8288; background-color: #fff; border: 1px solid #f2f3f3; border-radius: 0.25rem; -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
 
-@media (min-width: 64em) { .toc { position: relative; z-index: 20; top: 6em; } }
-
 .toc .nav__title { color: #fff; font-size: 0.75em; background: #6f777d; border-top-left-radius: 0.25rem; border-top-right-radius: 0.25rem; }
 
 .toc .active a { background-color: #e2e4e5; color: #000; }
@@ -1085,9 +1114,9 @@ figure.align-center figcaption { text-align: center; }
 
 @media (min-width: 64em) { .toc__menu { font-size: 0.6875em; } }
 
-.toc__menu a { display: block; padding: 0.25rem 0.75rem; color: #646769; font-weight: bold; line-height: 1.5; border-bottom: 1px solid #f2f3f3; text-decoration: none; }
+.toc__menu a { display: block; padding: 0.25rem 0.75rem; color: #646769; font-weight: bold; line-height: 1.5; border-bottom: 1px solid #f2f3f3; }
 
-.toc__menu a:hover { color: #3d4144; text-decoration: underline; }
+.toc__menu a:hover { color: #3d4144; }
 
 .toc__menu li ul > li a { padding-left: 1.25rem; font-weight: normal; }
 

@@ -27,13 +27,13 @@
 <meta property="og:url" content="http://localhost:4000/docs/docs-2-2/" />
 <meta property="og:site_name" content="Nice place to play" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-26T22:55:24+09:00" />
+<meta property="article:published_time" content="2020-08-01T21:22:56+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="2.2 Documentation" />
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@Mir" />
 <script type="application/ld+json">
-{"headline":"2.2 Documentation","dateModified":"2018-03-21T05:00:34+09:00","datePublished":"2020-07-26T22:55:24+09:00","@type":"BlogPosting","url":"http://localhost:4000/docs/docs-2-2/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/docs-2-2/"},"author":{"@type":"Person","name":"Mir"},"description":"Setup and installation instructions for Minimal Mistakes 2.2 (deprecated).","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/docs/docs-2-2/","headline":"2.2 Documentation","dateModified":"2018-03-21T05:00:34+09:00","datePublished":"2020-08-01T21:22:56+09:00","author":{"@type":"Person","name":"Mir"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/docs-2-2/"},"description":"Setup and installation instructions for Minimal Mistakes 2.2 (deprecated).","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -50,9 +50,7 @@
   <link rel="stylesheet" href="/assets/css/skins/default.css">
   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i|Nanum+Gothic:400,700,800|Black+And+White+Picture:400|Gaegu:300,400,700">
-  
-<link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
-
+  <link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
@@ -62,7 +60,7 @@
 </head>
 
 
-  <body class="layout--post  2-2-documentation">
+  <body class="layout--single  2-2-documentation">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -76,7 +74,7 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">Menu - 메뉴</a>
     <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/categories/">Categories</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/quick-start-guide/">Quick-Start Guide</a></li><li><a href="/search/">Search</a></li></ul>
+      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/start-guide/">Korea House</a></li><li><a href="/search/">Search</a></li></ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
 
@@ -104,21 +102,21 @@
 
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    <div class="page-wrapper">
+  <article class="page">
+    <div class="page__inner-wrap">
       <header class="page-header">
         
           
           
-            <h1 id="page-title" class="page-title p-name">2.2 Documentation
+            <h1 id="page-title" class="page-title  p-name">2.2 Documentation
 </h1>
           
+        
         
       </header>
 
       <div class="page-main">
-        <div class="page-sidebar">
-          
+        
   <div class="sidebar sticky">
   
   
@@ -249,11 +247,56 @@
   </div>
 
 
-        </div>
+    
+        <section class="page-content">
+          
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+                <i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#installation">Installation</a></li>
+  <li><a href="#running-jekyll">Running Jekyll</a></li>
+  <li><a href="#scaffolding">Scaffolding</a></li>
+  <li><a href="#site-setup">Site Setup</a>
+    <ul>
+      <li><a href="#site-wide-configuration">Site Wide Configuration</a>
+        <ul>
+          <li><a href="#title">title</a></li>
+          <li><a href="#url">url</a></li>
+          <li><a href="#google-analytics-and-webmaster-tools">Google Analytics and Webmaster Tools</a></li>
+        </ul>
+      </li>
+      <li><a href="#navigation-links">Navigation Links</a></li>
+    </ul>
+  </li>
+  <li><a href="#adding-new-content-with-octopress">Adding New Content with Octopress</a>
+    <ul>
+      <li><a href="#new-post">New Post</a></li>
+      <li><a href="#new-page">New Page</a></li>
+    </ul>
+  </li>
+  <li><a href="#layouts-and-content">Layouts and Content</a>
+    <ul>
+      <li><a href="#post-and-page">Post and Page</a></li>
+      <li><a href="#post-index-page">Post Index Page</a></li>
+      <li><a href="#feature-images">Feature Images</a></li>
+      <li><a href="#thumbnails-for-og-and-twitter-cards">Thumbnails for OG and Twitter Cards</a></li>
+      <li><a href="#author-override">Author Override</a></li>
+      <li><a href="#kramdown-table-of-contents">Kramdown Table of Contents</a></li>
+      <li><a href="#paragraph-indentation">Paragraph Indentation</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#social-sharing-links">Social Sharing Links</a></li>
+    </ul>
+  </li>
+  <li><a href="#further-customization">Further Customization</a></li>
+</ul>
 
-        <div class="page-content">
-          <div class="e-content">
-            <h2 id="installation">Installation</h2>
+            </nav>
+          </aside>
+          
+
+          <h2 id="installation">Installation</h2>
 
 <p>Minimal Mistakes now requires <a href="http://jekyllrb.com/">Jekyll</a> 3.0. Make sure to run <code class="language-plaintext highlighter-rouge">bundle update</code> if you aren’t on the latest version to update all gem dependencies.</p>
 
@@ -540,35 +583,24 @@
   </ol>
 </div>
 
-          </div>
 
           
 
           
 
-          <nav class="page-pagination" role="navigation">
-  
-    <a class="page-previous" href="/docs/contributing/">
-      <h4 class="page-pagination-label">Previous</h4>
-      <span class="page-pagination-title">
-        <i class="fas fa-arrow-left"></i> Contributing
+          
+  <nav class="pagination">
+    
+      <a href="/docs/contributing/" class="pagination--pager" title="Contributing
+">Previous</a>
+    
+    
+      <a href="/docs/license/" class="pagination--pager" title="License
+">Next</a>
+    
+  </nav>
 
-      </span>
-    </a>
-  
-
-  
-    <a class="page-next" href="/docs/license/">
-      <h4 class="page-pagination-label">Next</h4>
-      <span class="page-pagination-title">
-        License
- <i class="fas fa-arrow-right"></i>
-      </span>
-    </a>
-  
-</nav>
-
-        </div>
+        </section>
       </div>
     </div>
   </article>
@@ -579,7 +611,6 @@
   <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-
 <div class="social-icons"><a class="social-icon" href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x" title="Twitter"></i></a><a class="social-icon" href="https://instagram.com/mir-zone"><i class="fab fa-instagram fa-2x" title="Instagram"></i></a><a class="social-icon" href="https://github.com/mir-zone"><i class="fab fa-github-square fa-2x" title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a></div><div class="copyright">
     
       <p>&copy; 2020 Nice place to play. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
@@ -620,7 +651,6 @@ MathJax = {
 </script>
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
 
   </body>
 

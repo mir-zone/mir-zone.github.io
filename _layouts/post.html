@@ -14,8 +14,8 @@ layout: default
 {% endif %}
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    <div class="page-wrapper">
+  <article>
+    <div class="page__inner-wrap">
       <header class="page-header">
         {% unless page.header.overlay_color or page.header.overlay_image %}
           {% assign title = page.title | markdownify | strip_html %}
@@ -26,16 +26,10 @@ layout: default
           {% endif %}
         {% endunless %}
       </header>
-
       <div class="page-main">
-        <div class="page-sidebar">
-          {% include sidebar.html %}
-        </div>
-
-        <div class="page-content">
-          <div class="e-content">
+      {% include sidebar.html %}
+        <section class="page-content">
             {{ content }}
-          </div>
 
           {% if page.share %}
             {% include social-share.html %}
@@ -46,7 +40,7 @@ layout: default
           {% endif %}
 
           {% include page-pagination.html %}
-        </div>
+        </section>
       </div>
     </div>
   </article>

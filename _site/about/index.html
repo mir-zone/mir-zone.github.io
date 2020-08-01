@@ -31,7 +31,7 @@
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@Mir" />
 <script type="application/ld+json">
-{"headline":"About","dateModified":"2020-05-01T23:15:22+09:00","@type":"WebSite","url":"http://localhost:4000/about/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"author":{"@type":"Person","name":"Mir"},"description":"Minimal Mistakes is a flexible two-column Jekyll theme.","name":"Nice place to play","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/about/","headline":"About","dateModified":"2020-05-01T23:15:22+09:00","author":{"@type":"Person","name":"Mir"},"description":"Minimal Mistakes is a flexible two-column Jekyll theme.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"@type":"WebSite","name":"Nice place to play","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -48,9 +48,7 @@
   <link rel="stylesheet" href="/assets/css/skins/default.css">
   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i|Nanum+Gothic:400,700,800|Black+And+White+Picture:400|Gaegu:300,400,700">
-  
-<link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
-
+  <link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
@@ -74,7 +72,7 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">Menu - 메뉴</a>
     <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/categories/">Categories</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/quick-start-guide/">Quick-Start Guide</a></li><li><a href="/search/">Search</a></li></ul>
+      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/start-guide/">Korea House</a></li><li><a href="/search/">Search</a></li></ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
 
@@ -102,23 +100,21 @@
 
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    <div class="page-wrapper">
+  <article class="page">
+    <div class="page__inner-wrap">
       <header class="page-header">
         
           
           
-            <h1 id="page-title" class="page-title  p-name">
-              About
-
-            </h1>
+            <h1 id="page-title" class="page-title  p-name">About
+</h1>
           
         
         
       </header>
+
       <div class="page-main">
-        <div class="page-sidebar">
-          
+        
   <div class="sidebar sticky">
   
     
@@ -146,8 +142,7 @@
             <a class="u-url" rel="me" href="https://github.com/mir-zone"><i class="fab fa-github-square fa-lg" title="GitHub"></i></a>
           </li></ul>
 
-<span class="read-time">1 min read
-</span>
+<span class="read-time">1 min read</span>
 
     
   </div>
@@ -162,14 +157,13 @@
   </div>
 
 
-        </div>
-
-        <div class="page-content">
+    
+        <section class="page-content">
           
-          <div class="sidebar__right ">
+          <aside class="sidebar__right ">
             <nav class="toc">
-              <h4 class="nav__title">
-                <i class="fas fa-file-alt"></i> On this page</h4>
+              <header><h4 class="nav__title">
+                <i class="fas fa-cog"></i> On this page</h4></header>
               <ul class="toc__menu">
   <li><a href="#welcome">Welcome…!</a></li>
   <li><a href="#notable-features">Notable Features</a></li>
@@ -182,10 +176,10 @@
 </ul>
 
             </nav>
-          </div>
+          </aside>
           
-          <div class="e-content">
-            <p>First of all, thanks to Michael Rose for providing the theme.</p>
+
+          <p>First of all, thanks to Michael Rose for providing the theme.</p>
 
 <h2 id="welcome"><em>Welcome…!</em></h2>
 <p>새롭게 시작 하는 웹페이지에 접속하여 주셔서 감사합니다.</p>
@@ -320,14 +314,13 @@
 
 <p>마음을 자아내 가는 ‘사람’이다.</p>
 
-          </div>
 
           
 
           
 
           
-        </div>
+        </section>
       </div>
     </div>
   </article>
@@ -338,7 +331,6 @@
   <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-
 <div class="social-icons"><a class="social-icon" href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x" title="Twitter"></i></a><a class="social-icon" href="https://instagram.com/mir-zone"><i class="fab fa-instagram fa-2x" title="Instagram"></i></a><a class="social-icon" href="https://github.com/mir-zone"><i class="fab fa-github-square fa-2x" title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a></div><div class="copyright">
     
       <p>&copy; 2020 Nice place to play. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
@@ -379,7 +371,6 @@ MathJax = {
 </script>
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
 
   </body>
 

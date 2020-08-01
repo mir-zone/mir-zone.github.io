@@ -23,16 +23,18 @@
     }
 
     &.sticky {
-      overflow-y: auto;
+      //overflow-y: auto;
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height: calc(150vh - #{$nav-height} - 2em);
     }
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    float: left;
+    width: calc(#{$right-sidebar-width-narrow} - 0.5em);
+    opacity: 0.75;
   }
 
   > * {
@@ -71,9 +73,9 @@
 
   @include breakpoint($large) {
     position: absolute;
-    float: right;
-    top: 25em;
-    right: 5em;
+
+    top: 26em;
+    right: 1em;
 
     width: $right-sidebar-width-narrow;
 
@@ -91,7 +93,7 @@
 
   @include breakpoint($x-large) {
     width: $right-sidebar-width-narrow;
-    right: 10em;
+    right: 1em;
   }
 }
 

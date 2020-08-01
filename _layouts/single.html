@@ -14,39 +14,35 @@ layout: default
 {% endif %}
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    <div class="page-wrapper">
+  <article class="page">
+    <div class="page__inner-wrap">
       <header class="page-header">
         {% unless page.header.overlay_color or page.header.overlay_image %}
           {% assign title = page.title | markdownify | strip_html %}
           {% if page.title %}
-            <h1 id="page-title" class="page-title  p-name">
-              {{ title }}
-            </h1>
+            <h1 id="page-title" class="page-title  p-name">{{ title }}</h1>
           {% endif %}
         {% endunless %}
         {% if page.header.overlay_color or page.header.overlay_image %}
           <h1 id="page-title" class="page-title"><br></h1>
         {% endif %}
       </header>
-      <div class="page-main">
-        <div class="page-sidebar">
-          {% include sidebar.html %}
-        </div>
 
-        <div class="page-content">
+      <div class="page-main">
+        {% include sidebar.html %}
+    
+        <section class="page-content">
           {% if page.toc %}
-          <div class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
             <nav class="toc">
-              <h4 class="nav__title">
-                <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4>
+              <header><h4 class="nav__title">
+                <i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
             </nav>
-          </div>
+          </aside>
           {% endif %}
-          <div class="e-content">
-            {{ content }}
-          </div>
+
+          {{ content }}
 
           {% if page.share %}
             {% include social-share.html %}
@@ -57,7 +53,7 @@ layout: default
           {% endif %}
 
           {% include post_pagination.html %}
-        </div>
+        </section>
       </div>
     </div>
   </article>

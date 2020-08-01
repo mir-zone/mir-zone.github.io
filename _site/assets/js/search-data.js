@@ -4,6 +4,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/quick-start-guide/"
       },{
+        "title": "한옥의 초보 이야기",
+        "excerpt":"한옥이란 ? 우리가 알고 있는 한옥의 이야기를 시작해 봅니다. 준비된 이야기를 서서히 작성하여 봅니다. ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/start-guide/"
+      },{
         "title": "Structure",
         "excerpt":"Nothing clever here :wink:. Layouts, data files, and includes are all placed in their default locations. Stylesheets and scripts in assets, and a few development related files in the project’s root directory. Please note: If you installed Minimal Mistakes via the Ruby Gem method, theme files like _layouts, _includes, _sass,...","categories": [],
         "tags": [],
@@ -210,7 +215,7 @@ var store = [{
         "url": "http://localhost:4000/media/post-twitter-embeds/"
       },{
         "title": "Layout: Post with Table Of Contents",
-        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; About me&lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code...","categories": ["Layout"],
+        "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; &lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code to...","categories": ["Layout"],
         "tags": ["table of contents"],
         "url": "http://localhost:4000/layout/layout-table-of-contents/"
       },{

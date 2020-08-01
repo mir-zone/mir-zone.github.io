@@ -27,13 +27,13 @@
 <meta property="og:url" content="http://localhost:4000/docs/layouts/" />
 <meta property="og:site_name" content="Nice place to play" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-26T22:55:24+09:00" />
+<meta property="article:published_time" content="2020-08-01T21:22:56+09:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Layouts" />
 <meta name="twitter:site" content="@mmistakes" />
 <meta name="twitter:creator" content="@Mir" />
 <script type="application/ld+json">
-{"headline":"Layouts","dateModified":"2020-03-07T05:47:42+09:00","datePublished":"2020-07-26T22:55:24+09:00","@type":"BlogPosting","url":"http://localhost:4000/docs/layouts/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/layouts/"},"author":{"@type":"Person","name":"Mir"},"description":"Descriptions and samples of all layouts included with the theme and how to best use them.","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/docs/layouts/","headline":"Layouts","dateModified":"2020-03-07T05:47:42+09:00","datePublished":"2020-08-01T21:22:56+09:00","author":{"@type":"Person","name":"Mir"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/docs/layouts/"},"description":"Descriptions and samples of all layouts included with the theme and how to best use them.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Mir"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -50,9 +50,7 @@
   <link rel="stylesheet" href="/assets/css/skins/default.css">
   
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i|Nanum+Gothic:400,700,800|Black+And+White+Picture:400|Gaegu:300,400,700">
-  
-<link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
-
+  <link rel="alternate" type="application/atom+xml" title="Nice place to play" href="/atom.xml">
 <!-- start custom head snippets -->
 
 <!-- insert favicons. use http://realfavicongenerator.net/ -->
@@ -62,7 +60,7 @@
 </head>
 
 
-  <body class="layout--post  layouts">
+  <body class="layout--single  layouts">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -76,7 +74,7 @@
   <div class="navigation-wrapper">
     <a href="#menu-toggle" id="menu-toggle">Menu - 메뉴</a>
     <nav id="primary-nav" class="site-nav animated drop">
-      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/categories/">Categories</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/quick-start-guide/">Quick-Start Guide</a></li><li><a href="/search/">Search</a></li></ul>
+      <ul><li><a href="/about/">About</a></li><li><a href="/posts/">Posts</a></li><li><a href="/recipes-archive/">Recipes</a></li><li><a href="/pets/">Pets</a></li><li><a href="/photo-gallery-archive/">gallery</a></li><li><a href="/docs/start-guide/">Korea House</a></li><li><a href="/search/">Search</a></li></ul>
     </nav>
   </div><!-- /.navigation-wrapper -->
 
@@ -104,21 +102,21 @@
 
 
 <main id="main" class="main-content" aria-label="Content">
-  <article class="h-entry">
-    <div class="page-wrapper">
+  <article class="page">
+    <div class="page__inner-wrap">
       <header class="page-header">
         
           
           
-            <h1 id="page-title" class="page-title p-name">Layouts
+            <h1 id="page-title" class="page-title  p-name">Layouts
 </h1>
           
+        
         
       </header>
 
       <div class="page-main">
-        <div class="page-sidebar">
-          
+        
   <div class="sidebar sticky">
   
   
@@ -249,11 +247,71 @@
   </div>
 
 
-        </div>
+    
+        <section class="page-content">
+          
+          <aside class="sidebar__right ">
+            <nav class="toc">
+              <header><h4 class="nav__title">
+                <i class="fas fa-columns"></i> Included Layouts</h4></header>
+              <ul class="toc__menu">
+  <li><a href="#default-layout">Default layout</a>
+    <ul>
+      <li><a href="#layout-based-and-user-defined-classes">Layout based and user-defined classes</a></li>
+      <li><a href="#canonical-url">Canonical URL</a></li>
+    </ul>
+  </li>
+  <li><a href="#compress-layout">Compress layout</a></li>
+  <li><a href="#single-layout">Single layout</a>
+    <ul>
+      <li><a href="#wide-page">Wide page</a></li>
+      <li><a href="#table-of-contents">Table of contents</a></li>
+    </ul>
+  </li>
+  <li><a href="#archive-layout">Archive layout</a>
+    <ul>
+      <li><a href="#wide-page-1">Wide page</a></li>
+      <li><a href="#grid-view">Grid view</a></li>
+    </ul>
+  </li>
+  <li><a href="#taxonomy-archives">Taxonomy archives</a>
+    <ul>
+      <li><a href="#layout-posts">layout: posts</a></li>
+      <li><a href="#layout-categories">layout: categories</a></li>
+      <li><a href="#layout-tags">layout: tags</a></li>
+      <li><a href="#layout-collection">layout: collection</a></li>
+      <li><a href="#layout-category">layout: category</a></li>
+      <li><a href="#layout-tag">layout: tag</a></li>
+    </ul>
+  </li>
+  <li><a href="#home-page-layout">Home page layout</a></li>
+  <li><a href="#splash-page-layout">Splash page layout</a></li>
+  <li><a href="#search-page-layout">Search page layout</a>
+    <ul>
+      <li><a href="#exclusions">Exclusions</a></li>
+    </ul>
+  </li>
+  <li><a href="#headers">Headers</a>
+    <ul>
+      <li><a href="#header-overlay">Header overlay</a></li>
+      <li><a href="#open-graph--twitter-card-images">Open Graph &amp; Twitter Card images</a></li>
+    </ul>
+  </li>
+  <li><a href="#sidebars">Sidebars</a>
+    <ul>
+      <li><a href="#author-profile">Author profile</a></li>
+      <li><a href="#custom-sidebar-content">Custom sidebar content</a></li>
+      <li><a href="#custom-sidebar-navigation-menu">Custom sidebar navigation menu</a></li>
+    </ul>
+  </li>
+  <li><a href="#social-sharing-links">Social sharing links</a></li>
+</ul>
 
-        <div class="page-content">
-          <div class="e-content">
-            <p>The bread and butter of any theme. Below you’ll find the layouts included with Minimal Mistakes, what they look like and the type of content they’ve been built for.</p>
+            </nav>
+          </aside>
+          
+
+          <p>The bread and butter of any theme. Below you’ll find the layouts included with Minimal Mistakes, what they look like and the type of content they’ve been built for.</p>
 
 <h2 id="default-layout">Default layout</h2>
 
@@ -1119,35 +1177,24 @@
   </ol>
 </div>
 
-          </div>
 
           
 
           
 
-          <nav class="page-pagination" role="navigation">
-  
-    <a class="page-previous" href="/docs/authors/">
-      <h4 class="page-pagination-label">Previous</h4>
-      <span class="page-pagination-title">
-        <i class="fas fa-arrow-left"></i> Authors
+          
+  <nav class="pagination">
+    
+      <a href="/docs/authors/" class="pagination--pager" title="Authors
+">Previous</a>
+    
+    
+      <a href="/docs/posts/" class="pagination--pager" title="Working with Posts
+">Next</a>
+    
+  </nav>
 
-      </span>
-    </a>
-  
-
-  
-    <a class="page-next" href="/docs/posts/">
-      <h4 class="page-pagination-label">Next</h4>
-      <span class="page-pagination-title">
-        Working with Posts
- <i class="fas fa-arrow-right"></i>
-      </span>
-    </a>
-  
-</nav>
-
-        </div>
+        </section>
       </div>
     </div>
   </article>
@@ -1158,7 +1205,6 @@
   <!-- start custom footer snippets -->
 
 <!-- end custom footer snippets -->
-
 <div class="social-icons"><a class="social-icon" href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x" title="Twitter"></i></a><a class="social-icon" href="https://instagram.com/mir-zone"><i class="fab fa-instagram fa-2x" title="Instagram"></i></a><a class="social-icon" href="https://github.com/mir-zone"><i class="fab fa-github-square fa-2x" title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a></div><div class="copyright">
     
       <p>&copy; 2020 Nice place to play. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.</p>
@@ -1199,7 +1245,6 @@ MathJax = {
 </script>
 
 <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-
 
   </body>
 
