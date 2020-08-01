@@ -185,7 +185,7 @@ defaults:
       path: ""
       type: docs
     values:
-      layout: post
+      layout: single
       read_time: false
       author_profile: false
       share: false
