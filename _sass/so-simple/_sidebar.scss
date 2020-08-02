@@ -32,9 +32,12 @@
   }
 
   @include breakpoint($x-large) {
-    float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 0.5em);
+    width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   > * {
@@ -73,12 +76,10 @@
 
   @include breakpoint($large) {
     position: absolute;
-
-    top: 26em;
-    right: 1em;
-
+    top: 0em;
+    right: 0em;
     width: $right-sidebar-width-narrow;
-
+    margin-right: -1 * $right-sidebar-width-narrow;
     padding-left: 1em;
     z-index: 10;
 
@@ -92,8 +93,8 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width-narrow;
-    right: 1em;
+    width: $right-sidebar-width;
+    margin-right: -1 * $right-sidebar-width;
   }
 }
 

@@ -3,8 +3,9 @@ title: Photo Gallery
 layout: collection
 permalink: /photo-gallery-archive/
 collection: gallery
+author_profile: false
 entries_layout: grid
-
+classes: wide
 excerpt: >
   <br>사람과 추억이 공존하는 곳...<br>
   여기는 당신과 함께하는 공간입니다.<br>

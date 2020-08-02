@@ -5,7 +5,7 @@ permalink: /recipes-archive/
 collection: recipes
 entries_layout: grid #option "list", "grid"
 author_profile: false
-classes: ""
+classes: wide
 excerpt: >
   <br><br>I knopw the best recipe for it.<br>
   <small>Wow! it seems pretty easy. I won't have to seach on the internet.</small>

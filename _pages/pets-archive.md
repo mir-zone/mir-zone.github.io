@@ -3,8 +3,9 @@ title: Pets
 layout: collection
 permalink: /pets/
 collection: pets
+author_profile: false
 entries_layout: grid
-classes: wide
+#classes: wide
 header:
   overlay_image: /assets/images/mm-home-page-unsplash-002.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background

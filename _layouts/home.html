@@ -1,17 +1,22 @@
 ---
-layout: page
+layout: default
 ---
 
-{{ content }}
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
 
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
-    {%- comment -%}
-      Add paginator.posts loop if jekyll-paginate plugin is enabled
-      and page.paginate == true
-    {%- endcomment -%}
-    {% include posts-paginated.html %}
-  {%- else -%}
-    {% include posts-limit.html %}
-  {%- endif -%}
-</div>
+<main id="main" role="main"  class="main-content" aria-label="Content">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</main>

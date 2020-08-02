@@ -1,11 +1,9 @@
 ---
 title: Have a Nice DAY!
-layout: splash
-limit: 10
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
-show_excerpts: true
-entries_layout: grid #option "list", "grid"
+layout: home
 permalink: /
+entries_layout: grid
+classes: wide
 hidden: 
 header:
   overlay_color: "#5e616c"
@@ -16,7 +14,6 @@ header:
   ##    url: "/docs/quick-start-guide/"
 excerpt: >
   <br><br><br>
-  
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"

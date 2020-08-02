@@ -35,6 +35,7 @@
 /* sans serif typefaces */
 /* Colors ========================================================================== */
 /* links */
+/* paragraph indention */
 /* ========================================================================== Clearfix Mixin ========================================================================== */
 /* Provides an easy way to include a clearfix for containing floats. link http://cssmojo.com/latest_new_clearfix_so_far/ example scss - Usage .element { @include clearfix; } example css - CSS Output .element::after { clear: both; content: ""; display: table; } */
 /* ========================================================================== Float Mixins ========================================================================== */
@@ -508,23 +509,55 @@ tr, td, th { vertical-align: middle; }
 
 @media (min-width: 80em) { #main { max-width: 1280px; } }
 
+.page__header { padding-left: 1em; margin-bottom: 0.5em; font-family: "Lora", "Nanum+Gothic"; font-weight: bold; font-style: italic; letter-spacing: -2px; }
+
+.page__header { font-size: 48px; }
+
+@media screen and (min-width: 320px) { .page__header { font-size: calc(48px + 12 * ((100vw - 320px) / 960)); } }
+
+@media screen and (min-width: 1280px) { .page__header { font-size: 60px; } }
+
+@media (min-width: 64em) { .page__header { font-size: 3em; clear: both; } }
+
 .page { margin: 0 auto; }
 
-@media (min-width: 64em) { .page { padding-right: 200px; } }
+@media (min-width: 64em) { .page { float: right; width: calc(100% - 200px); padding-right: 200px; } }
+
+@media (min-width: 80em) { .page { width: calc(100% - 300px); padding-right: 300px; } }
 
 .page .page__inner-wrap { float: left; margin-top: 1em; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
 
 .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .page__share { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; }
 
-.page-wrapper { margin: 0 auto; padding-left: 1em; padding-right: 1em; max-width: 1024px; }
+.page__title { margin-top: 0; line-height: 1; }
 
-.page-title { margin-bottom: 0.5em; font-family: "Lora", "Nanum+Gothic"; font-weight: bold; font-style: italic; letter-spacing: -2px; }
+.page__title + .page__meta { margin-top: -0.5em; }
 
-.page-title { font-size: 48px; }
+.page__lead { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
 
-@media screen and (min-width: 320px) { .page-title { font-size: calc(48px + 12 * ((100vw - 320px) / 960)); } }
+.page__content { /* paragraph indents */ /* blockquote citations */ }
 
-@media screen and (min-width: 1280px) { .page-title { font-size: 60px; } }
+.page__content h2 { padding-bottom: 0.5em; border-bottom: 1px solid #f2f3f3; }
+
+.page__content h1 .header-link, .page__content h2 .header-link, .page__content h3 .header-link, .page__content h4 .header-link, .page__content h5 .header-link, .page__content h6 .header-link { position: relative; left: 0.5em; opacity: 0; font-size: 0.8em; -webkit-transition: opacity 0.2s ease-in-out 0.1s; -moz-transition: opacity 0.2s ease-in-out 0.1s; -o-transition: opacity 0.2s ease-in-out 0.1s; transition: opacity 0.2s ease-in-out 0.1s; }
+
+.page__content h1:hover .header-link, .page__content h2:hover .header-link, .page__content h3:hover .header-link, .page__content h4:hover .header-link, .page__content h5:hover .header-link, .page__content h6:hover .header-link { opacity: 1; }
+
+.page__content p, .page__content li, .page__content dl { font-size: 1em; }
+
+.page__content p { margin: 0 0 1.3em; /* sibling indentation*/ }
+
+.page__content a:not(.btn):hover { text-decoration: underline; }
+
+.page__content a:not(.btn):hover img { box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
+
+.page__content dt { margin-top: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-weight: bold; }
+
+.page__content dd { margin-left: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; }
+
+.page__content .small { font-size: 0.75em; }
+
+.page__content blockquote + .small { margin-top: -1.5em; padding-left: 1.25rem; }
 
 @media (min-width: 64em) { .page-main { display: grid; grid-column-gap: 3em; grid-row-gap: 0; grid-template-columns: 175px 1fr; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; } }
 
@@ -598,12 +631,14 @@ tr, td, th { vertical-align: middle; }
 
 .page-pagination-title { margin: 0; padding: 0; font-family: "Lora", "Nanum+Gothic"; font-size: 0.9rem; font-style: italic; }
 
-/* Wide Layout Overrides ========================================================================== */
-.layout--home .page-wrapper, .layout--posts .page-wrapper, .layout--categories .page-wrapper, .layout--tags .page-wrapper, .layout--category .page-wrapper, .layout--tag .page-wrapper, .layout--collection .page-wrapper, .layout--search .page-wrapper { max-width: 768px; }
+/* Wide Pages ========================================================================== */
+@media (min-width: 64em) { .wide .page { grid: 1/-1; padding-right: 0; } }
 
-.layout--home .page-title, .layout--posts .page-title, .layout--categories .page-title, .layout--tags .page-title, .layout--category .page-title, .layout--tag .page-title, .layout--collection .page-title, .layout--search .page-title { text-align: center; }
+@media (min-width: 80em) { .wide .page { grid: 1/-1; padding-right: 0; } }
 
-.page--wide .page-wrapper { max-width: 1024px; }
+@media (min-width: 64em) { .wide .page__related { padding-right: 0; } }
+
+@media (min-width: 80em) { .wide .page__related { padding-right: 0; } }
 
 /* ========================================================================== Entries (Posts, collection documents, etc.) ========================================================================== */
 .entry { clear: both; position: relative; }
@@ -768,222 +803,6 @@ div.highlighter-rouge > pre, div.highlighter-rouge pre.highlight, figure.highlig
 
 .gist td, .gist th { border-bottom: 0; }
 
-/* Utility Clases */
-/* ========================================================================== Accessibility Modules ========================================================================== */
-/* Text meant only for screen readers */
-.screen-reader-text, .screen-reader-text span, .screen-reader-shortcut { position: absolute !important; width: 1px; height: 1px; clip: rect(0, 0, 0, 0); border: 0; overflow: hidden; }
-
-.screen-reader-text:focus, .screen-reader-text span:focus, .screen-reader-shortcut:focus { display: block; top: 5px; left: 5px; width: auto; height: auto; padding: 0.75em 1em; clip: auto !important; border-radius: 0.125em; color: #fff; font-weight: bold; line-height: normal; text-decoration: none; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); z-index: 100000; }
-
-.screen-reader-text:focus, .screen-reader-shortcut:focus { width: auto; height: auto; clip: auto !important; text-decoration: none; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); z-index: 100000; }
-
-/* ========================================================================== Animations ========================================================================== */
-/* add .animated class to elements you wish to animate along with the type of animation (eg: <div class="animated fadeIn"></div>) */
-.animated { -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-duration: 1s; animation-duration: 1s; }
-
-/* Fade-in animation .fadeIn ========================================================================== */
-@-webkit-keyframes fadeIn { 0% { opacity: 0; }
-  100% { opacity: 1; } }
-
-@keyframes fadeIn { 0% { opacity: 0; }
-  100% { opacity: 1; } }
-
-.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; }
-
-/* Fade-in down animation .fadeInDown ========================================================================== */
-@-webkit-keyframes fadeInDown { 0% { opacity: 0;
-    -webkit-transform: translateY(-20px); }
-  100% { opacity: 1;
-    -webkit-transform: translateY(0); } }
-
-@keyframes fadeInDown { 0% { opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px); }
-  100% { opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0); } }
-
-.fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; }
-
-/* Drop animation .drop ========================================================================== */
-@-webkit-keyframes drop { 0% { -webkit-transform: translateY(-500px); }
-  100% { -webkit-transform: translateY(0); } }
-
-@keyframes drop { 0% { -webkit-transform: translateY(-500px);
-    transform: translateY(-500px); }
-  100% { -webkit-transform: translateY(0);
-    transform: translateY(0); } }
-
-.drop { -webkit-animation-name: drop; animation-name: drop; }
-
-/* ========================================================================== Alignment ========================================================================== */
-.align-baseline { vertical-align: baseline !important; }
-
-/* Browser default */
-.align-top { vertical-align: top !important; }
-
-.align-middle { vertical-align: middle !important; }
-
-.align-bottom { vertical-align: bottom !important; }
-
-.align-text-bottom { vertical-align: text-bottom !important; }
-
-.align-text-top { vertical-align: text-top !important; }
-
-/* Image Alignment ========================================================================== */
-.align-center, div.align-center, a img.align-center { display: block; margin-right: auto; margin-left: auto; }
-
-figure.align-center img { display: block; margin-right: auto; margin-left: auto; }
-
-figure.align-center figcaption { text-align: center; }
-
-.align-right, a img.align-right { margin-bottom: 1rem; margin-left: 1rem; float: right; }
-
-.align-left, a img.align-left { margin-right: 1rem; margin-bottom: 1rem; float: left; }
-
-/* ========================================================================== Clearfix ========================================================================== */
-.clearfix { clear: both; }
-
-.clearfix::after { clear: both; content: ""; display: table; }
-
-/* ========================================================================== Floats ========================================================================== */
-.float-left { float: left !important; }
-
-.float-right { float: right !important; }
-
-.float-none { float: none !important; }
-
-/* ========================================================================== Text ========================================================================== */
-/* Alignment ========================================================================== */
-.text-justify { text-align: justify !important; }
-
-.text-nowrap { white-space: nowrap !important; }
-
-.text-left { text-align: left !important; }
-
-.text-right { text-align: right !important; }
-
-.text-center { text-align: center !important; }
-
-/* Transformation ========================================================================== */
-.text-lowercase { text-transform: lowercase !important; }
-
-.text-uppercase { text-transform: uppercase !important; }
-
-.text-capitalize { text-transform: capitalize !important; }
-
-.text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-
-/* Sizing ========================================================================== */
-.small { font-size: 80%; }
-
-/* ========================================================================== Responsive Embed Credit: Nicolas Gallagher and SUIT CSS. <!-- 16:9 aspect ratio --> <div class="responsive-embed responsive-embed-16by9"> <iframe class="responsive-embed-item" src="..."></iframe> </div> <!-- 4:3 aspect ratio --> <div class="responsive-embed responsive-embed-4by3"> <iframe class="responsive-embed-item" src="..."></iframe> </div> ========================================================================== */
-.responsive-embed { display: block; position: relative; width: 100%; margin-bottom: 1.5rem; padding: 0; overflow: hidden; }
-
-.responsive-embed::before { display: block; content: ""; }
-
-.responsive-embed .responsive-embed-item, .responsive-embed iframe, .responsive-embed embed, .responsive-embed object, .responsive-embed video { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; }
-
-.responsive-embed-21by9::before { padding-top: 42.8571428571%; }
-
-.responsive-embed-16by9::before { padding-top: 56.25%; }
-
-.responsive-embed-4by3::before { padding-top: 75%; }
-
-.responsive-embed-1by1::before { padding-top: 100%; }
-
-/* sidebar menu */
-/* ========================================================================== SIDEBAR ========================================================================== */
-.sidebar { clear: both; }
-
-.sidebar::after { clear: both; content: ""; display: table; }
-
-@media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } .sidebar:hover { opacity: 1; } .sidebar.sticky { /* calculate height of nav list viewport height - nav height - masthead x-padding */ max-height: calc(150vh - 2em - 2em); } }
-
-@media (min-width: 80em) { .sidebar { float: left; width: calc(200px - 0.5em); opacity: 0.75; } }
-
-.sidebar > * { margin-top: 1em; margin-bottom: 1em; }
-
-.sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
-
-.sidebar p, .sidebar li { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; line-height: 1.5; }
-
-.sidebar img { width: 100%; }
-
-.sidebar img.emoji { width: 20px; height: 20px; }
-
-.sidebar__right { margin-bottom: 1em; }
-
-@media (min-width: 64em) { .sidebar__right { position: absolute; top: 26em; right: 1em; width: 200px; padding-left: 1em; z-index: 10; } .sidebar__right.sticky { clear: both; position: -webkit-sticky; position: sticky; top: 2em; float: right; } .sidebar__right.sticky::after { clear: both; content: ""; display: table; } }
-
-@media (min-width: 80em) { .sidebar__right { width: 200px; right: 1em; } }
-
-@media (min-width: 64em) { .splash .sidebar__right { position: relative; float: right; margin-right: 0; } }
-
-@media (min-width: 80em) { .splash .sidebar__right { margin-right: 0; } }
-
-/* Author profile and links ========================================================================== */
-.page-author { clear: both; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; margin-bottom: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; }
-
-.page-author::after { clear: both; content: ""; display: table; }
-
-@media (min-width: 64em) { .page-author { display: block; } }
-
-.author__avatar { display: table-cell; vertical-align: top; width: 36px; height: 36px; }
-
-@media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; } }
-
-.author__avatar img { max-width: 110px; border-radius: 50%; }
-
-@media (min-width: 64em) { .author__avatar img { padding: 5px; border: 1px solid #f2f3f3; } }
-
-.author__content a { color: inherit; text-decoration: none; }
-
-.author__content a:hover { text-decoration: underline; }
-
-.author__content .page-date, .author__content .read-time { font-family: "Lora", "Nanum+Gothic"; font-style: italic; white-space: nowrap; }
-
-@media (min-width: 64em) { .author__content .read-time { display: block; } }
-
-.author__content .read-time + .page-date::before { content: "\2022"; padding: 0 0.5em; }
-
-@media (min-width: 64em) { .author__content .read-time + .page-date::before { content: ""; padding: 0; } }
-
-.author__name { margin: 0; }
-
-@media (min-width: 64em) { .author__name { margin-top: 10px; margin-bottom: 0.5em; } }
-
-.author__links { display: none; margin: 0 0 1.5em; padding: 0; list-style: none; }
-
-@media (min-width: 64em) { .author__links { display: block; } }
-
-.author__link { display: inline; padding-right: 0.5em; }
-
-@media (min-width: 64em) { .author__link { padding: 0.25em; } }
-
-.page-taxonomies-title { padding-right: 0.5em; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin: 0; }
-
-@media (min-width: 64em) { .page-taxonomies-title { margin: 1.5em 0 0.5em; padding: 0; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; align-items: center; text-align: center; margin: 0; } }
-
-.page-taxonomies { display: inline; margin-right: 1em; padding: 0; list-style: none; text-align: center; }
-
-@media (min-width: 64em) { .page-taxonomies { display: block; margin: 0 0 1.5em 0; } }
-
-.page-taxonomy { display: inline; align-items: center; text-align: center; }
-
-.page-taxonomy:not(:last-child)::after { content: ", "; }
-
-.page-taxonomy a { text-decoration: none; }
-
-.page-taxonomy a:hover { text-decoration: underline; }
-
-/* Wide Pages ========================================================================== */
-.wide .sidebar__right { margin-bottom: 1em; }
-
-@media (min-width: 64em) { .wide .sidebar__right { position: initial; top: initial; right: initial; width: initial; margin-right: initial; padding-left: initial; z-index: initial; } .wide .sidebar__right.sticky { float: none; } }
-
-@media (min-width: 80em) { .wide .sidebar__right { width: initial; margin-right: initial; } }
-
 /* ========================================================================== NAVIGATION ========================================================================== */
 /* Breadcrumb navigation links ========================================================================== */
 .breadcrumbs { clear: both; margin: 0 auto; max-width: 100%; padding-left: 1em; padding-right: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; -webkit-animation: intro 0.3s both; animation: intro 0.3s both; -webkit-animation-delay: 0.3s; animation-delay: 0.3s; }
@@ -1127,5 +946,349 @@ figure.align-center figcaption { text-align: center; }
 .toc__menu li ul li ul li ul li ul > li a { padding-left: 2.75rem; }
 
 .toc__menu li ul li ul li ul li ul li ul > li a { padding-left: 3.25rem; }
+
+/* Utility Clases */
+/* ========================================================================== Accessibility Modules ========================================================================== */
+/* Text meant only for screen readers */
+.screen-reader-text, .screen-reader-text span, .screen-reader-shortcut { position: absolute !important; width: 1px; height: 1px; clip: rect(0, 0, 0, 0); border: 0; overflow: hidden; }
+
+.screen-reader-text:focus, .screen-reader-text span:focus, .screen-reader-shortcut:focus { display: block; top: 5px; left: 5px; width: auto; height: auto; padding: 0.75em 1em; clip: auto !important; border-radius: 0.125em; color: #fff; font-weight: bold; line-height: normal; text-decoration: none; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); z-index: 100000; }
+
+.screen-reader-text:focus, .screen-reader-shortcut:focus { width: auto; height: auto; clip: auto !important; text-decoration: none; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6); z-index: 100000; }
+
+/* ========================================================================== Animations ========================================================================== */
+/* add .animated class to elements you wish to animate along with the type of animation (eg: <div class="animated fadeIn"></div>) */
+.animated { -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-duration: 1s; animation-duration: 1s; }
+
+/* Fade-in animation .fadeIn ========================================================================== */
+@-webkit-keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+@keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; }
+
+/* Fade-in down animation .fadeInDown ========================================================================== */
+@-webkit-keyframes fadeInDown { 0% { opacity: 0;
+    -webkit-transform: translateY(-20px); }
+  100% { opacity: 1;
+    -webkit-transform: translateY(0); } }
+
+@keyframes fadeInDown { 0% { opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% { opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.fadeInDown { -webkit-animation-name: fadeInDown; animation-name: fadeInDown; }
+
+/* Drop animation .drop ========================================================================== */
+@-webkit-keyframes drop { 0% { -webkit-transform: translateY(-500px); }
+  100% { -webkit-transform: translateY(0); } }
+
+@keyframes drop { 0% { -webkit-transform: translateY(-500px);
+    transform: translateY(-500px); }
+  100% { -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+.drop { -webkit-animation-name: drop; animation-name: drop; }
+
+/* ========================================================================== Alignment ========================================================================== */
+.align-baseline { vertical-align: baseline !important; }
+
+/* Browser default */
+.align-top { vertical-align: top !important; }
+
+.align-middle { vertical-align: middle !important; }
+
+.align-bottom { vertical-align: bottom !important; }
+
+.align-text-bottom { vertical-align: text-bottom !important; }
+
+.align-text-top { vertical-align: text-top !important; }
+
+/* Image Alignment ========================================================================== */
+.align-center, div.align-center, a img.align-center { display: block; margin-right: auto; margin-left: auto; }
+
+figure.align-center img { display: block; margin-right: auto; margin-left: auto; }
+
+figure.align-center figcaption { text-align: center; }
+
+.align-right, a img.align-right { margin-bottom: 1rem; margin-left: 1rem; float: right; }
+
+.align-left, a img.align-left { margin-right: 1rem; margin-bottom: 1rem; float: left; }
+
+/* ========================================================================== Clearfix ========================================================================== */
+.clearfix { clear: both; }
+
+.clearfix::after { clear: both; content: ""; display: table; }
+
+/* ========================================================================== Floats ========================================================================== */
+.float-left { float: left !important; }
+
+.float-right { float: right !important; }
+
+.float-none { float: none !important; }
+
+/* ========================================================================== Text ========================================================================== */
+/* Alignment ========================================================================== */
+.text-justify { text-align: justify !important; }
+
+.text-nowrap { white-space: nowrap !important; }
+
+.text-left { text-align: left !important; }
+
+.text-right { text-align: right !important; }
+
+.text-center { text-align: center !important; }
+
+/* Transformation ========================================================================== */
+.text-lowercase { text-transform: lowercase !important; }
+
+.text-uppercase { text-transform: uppercase !important; }
+
+.text-capitalize { text-transform: capitalize !important; }
+
+.text-truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Sizing ========================================================================== */
+.small { font-size: 80%; }
+
+/* ========================================================================== Responsive Embed Credit: Nicolas Gallagher and SUIT CSS. <!-- 16:9 aspect ratio --> <div class="responsive-embed responsive-embed-16by9"> <iframe class="responsive-embed-item" src="..."></iframe> </div> <!-- 4:3 aspect ratio --> <div class="responsive-embed responsive-embed-4by3"> <iframe class="responsive-embed-item" src="..."></iframe> </div> ========================================================================== */
+.responsive-embed { display: block; position: relative; width: 100%; margin-bottom: 1.5rem; padding: 0; overflow: hidden; }
+
+.responsive-embed::before { display: block; content: ""; }
+
+.responsive-embed .responsive-embed-item, .responsive-embed iframe, .responsive-embed embed, .responsive-embed object, .responsive-embed video { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+.responsive-embed-21by9::before { padding-top: 42.8571428571%; }
+
+.responsive-embed-16by9::before { padding-top: 56.25%; }
+
+.responsive-embed-4by3::before { padding-top: 75%; }
+
+.responsive-embed-1by1::before { padding-top: 100%; }
+
+/* sidebar menu */
+/* ========================================================================== ARCHIVE ========================================================================== */
+.archive { margin-top: 1em; margin-bottom: 2em; }
+
+@media (min-width: 64em) { .archive { float: right; width: calc(100% - 200px); padding-right: 200px; } }
+
+@media (min-width: 80em) { .archive { width: calc(100% - 300px); padding-right: 300px; } }
+
+.archive__item { position: relative; }
+
+.archive__item a { position: relative; z-index: 10; }
+
+.archive__item a[rel="permalink"] { position: static; }
+
+.archive__subtitle { margin: 1.414em 0 0; padding-bottom: 0.5em; font-size: 1em; color: #646769; border-bottom: 1px solid #f2f3f3; }
+
+.archive__subtitle + .list__item .archive__item-title { margin-top: 0.5em; }
+
+.archive__item-title { margin-bottom: 0.25em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; line-height: initial; overflow: hidden; text-overflow: ellipsis; }
+
+.archive__item-title a[rel="permalink"]::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+.archive__item-title a + a { opacity: 0.5; }
+
+/* remove border*/
+.page__content .archive__item-title { margin-top: 1em; border-bottom: none; }
+
+.archive__item-excerpt { margin-top: 0; font-size: 0.75em; }
+
+.archive__item-excerpt + p { text-indent: 0; }
+
+.archive__item-excerpt a { position: relative; }
+
+.archive__item-teaser { position: relative; border-radius: 0.25rem; overflow: hidden; }
+
+.archive__item-teaser img { width: 100%; }
+
+.archive__item-caption { position: absolute; bottom: 0; right: 0; margin: 0 auto; padding: 2px 5px; color: #fff; font-family: Georgia, Times, serif; font-size: 0.625em; background: #000; text-align: right; z-index: 5; opacity: 0.5; border-radius: 0.25rem 0 0 0; }
+
+@media (min-width: 64em) { .archive__item-caption { padding: 5px 10px; } }
+
+.archive__item-caption a { color: #fff; text-decoration: none; }
+
+/* List view ========================================================================== */
+.list__item .page__meta { margin: 0 0 4px; font-size: 0.6em; }
+
+/* Grid view ========================================================================== */
+.archive .grid__wrapper { /* extend grid elements to the right */ }
+
+@media (min-width: 64em) { .archive .grid__wrapper { margin-right: -200px; } }
+
+@media (min-width: 80em) { .archive .grid__wrapper { margin-right: -300px; } }
+
+.grid__item { margin-bottom: 2em; }
+
+@media (min-width: 20em) { .grid__item { float: left; width: span(5 of 10); } .grid__item:nth-child(2n + 1) { clear: both; margin-left: 0; } .grid__item:nth-child(2n + 2) { clear: none; margin-left: gutter(of 10); } }
+
+@media (min-width: 48em) { .grid__item { margin-left: 0; /* override margin*/ margin-right: 0; /* override margin*/ width: span(3 of 12); } .grid__item:nth-child(2n + 1) { clear: none; } .grid__item:nth-child(4n + 1) { clear: both; } .grid__item:nth-child(4n + 2) { clear: none; margin-left: gutter(1 of 12); } .grid__item:nth-child(4n + 3) { clear: none; margin-left: gutter(1 of 12); } .grid__item:nth-child(4n + 4) { clear: none; margin-left: gutter(1 of 12); } }
+
+.grid__item .page__meta { margin: 0 0 4px; font-size: 0.6em; }
+
+.grid__item .archive__item-title { margin-top: 0.5em; font-size: 1em; }
+
+.grid__item .archive__item-excerpt { display: none; }
+
+@media (min-width: 48em) { .grid__item .archive__item-excerpt { display: block; font-size: 0.75em; } }
+
+@media (min-width: 20em) { .grid__item .archive__item-teaser { max-height: 200px; } }
+
+@media (min-width: 48em) { .grid__item .archive__item-teaser { max-height: 120px; } }
+
+/* Features ========================================================================== */
+.feature__wrapper { clear: both; margin-bottom: 2em; border-bottom: 1px solid #f2f3f3; }
+
+.feature__wrapper::after { clear: both; content: ""; display: table; }
+
+.feature__wrapper .archive__item-title { margin-bottom: 0; }
+
+.feature__item { position: relative; margin-bottom: 2em; font-size: 1.125em; }
+
+@media (min-width: 20em) { .feature__item { float: left; margin-bottom: 0; width: span(4 of 12); } .feature__item:nth-child(3n + 1) { clear: both; margin-left: 0; } .feature__item:nth-child(3n + 2) { clear: none; margin-left: gutter(of 12); } .feature__item:nth-child(3n + 3) { clear: none; margin-left: gutter(of 12); } .feature__item .feature__item-teaser { max-height: 200px; overflow: hidden; } }
+
+.feature__item .archive__item-body { padding-left: gutter(1 of 12); padding-right: gutter(1 of 12); }
+
+.feature__item a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+.feature__item--left { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 1.125em; }
+
+.feature__item--left .archive__item { float: left; }
+
+.feature__item--left .archive__item-teaser { margin-bottom: 2em; }
+
+.feature__item--left a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+@media (min-width: 20em) { .feature__item--left .archive__item-teaser { float: left; width: span(5 of 12); } .feature__item--left .archive__item-body { float: right; padding-left: gutter(0.5 of 12); padding-right: gutter(1 of 12); width: span(7 of 12); } }
+
+.feature__item--right { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 1.125em; }
+
+.feature__item--right .archive__item { float: left; }
+
+.feature__item--right .archive__item-teaser { margin-bottom: 2em; }
+
+.feature__item--right a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+@media (min-width: 20em) { .feature__item--right { text-align: right; } .feature__item--right .archive__item-teaser { float: right; width: span(5 of 12); } .feature__item--right .archive__item-body { float: left; width: span(7 of 12); padding-left: gutter(0.5 of 12); padding-right: gutter(1 of 12); } }
+
+.feature__item--center { position: relative; float: left; margin-left: 0; margin-right: 0; width: 100%; clear: both; font-size: 1.125em; }
+
+.feature__item--center .archive__item { float: left; width: 100%; }
+
+.feature__item--center .archive__item-teaser { margin-bottom: 2em; }
+
+.feature__item--center a.btn::before { content: ''; position: absolute; left: 0; top: 0; right: 0; bottom: 0; }
+
+@media (min-width: 20em) { .feature__item--center { text-align: center; } .feature__item--center .archive__item-teaser { margin: 0 auto; width: span(5 of 12); } .feature__item--center .archive__item-body { margin: 0 auto; width: span(7 of 12); } }
+
+/* Place inside an archive layout */
+.archive .feature__wrapper .archive__item-title { margin-top: 0.25em; font-size: 1em; }
+
+.archive .feature__item, .archive .feature__item--left, .archive .feature__item--center, .archive .feature__item--right { font-size: 1em; }
+
+/* Wide Pages ========================================================================== */
+@media (min-width: 64em) { .wide .archive { padding-right: 0; } }
+
+@media (min-width: 80em) { .wide .archive { padding-right: 0; } }
+
+/* Place inside a single layout */
+.layout--single .feature__wrapper { display: inline-block; }
+
+/* ========================================================================== SIDEBAR ========================================================================== */
+.sidebar { clear: both; }
+
+.sidebar::after { clear: both; content: ""; display: table; }
+
+@media (min-width: 64em) { .sidebar { float: left; width: calc(200px - 1em); opacity: 0.75; -webkit-transition: opacity 0.2s ease-in-out; transition: opacity 0.2s ease-in-out; } .sidebar:hover { opacity: 1; } .sidebar.sticky { /* calculate height of nav list viewport height - nav height - masthead x-padding */ max-height: calc(150vh - 2em - 2em); } }
+
+@media (min-width: 80em) { .sidebar { width: calc(200px - 1em); opacity: 0.75; } .sidebar:hover { opacity: 1; } }
+
+.sidebar > * { margin-top: 1em; margin-bottom: 1em; }
+
+.sidebar h2, .sidebar h3, .sidebar h4, .sidebar h5, .sidebar h6 { margin-bottom: 0; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; }
+
+.sidebar p, .sidebar li { font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; line-height: 1.5; }
+
+.sidebar img { width: 100%; }
+
+.sidebar img.emoji { width: 20px; height: 20px; }
+
+.sidebar__right { margin-bottom: 1em; }
+
+@media (min-width: 64em) { .sidebar__right { position: absolute; top: 0em; right: 0em; width: 200px; margin-right: -200px; padding-left: 1em; z-index: 10; } .sidebar__right.sticky { clear: both; position: -webkit-sticky; position: sticky; top: 2em; float: right; } .sidebar__right.sticky::after { clear: both; content: ""; display: table; } }
+
+@media (min-width: 80em) { .sidebar__right { width: 300px; margin-right: -300px; } }
+
+@media (min-width: 64em) { .splash .sidebar__right { position: relative; float: right; margin-right: 0; } }
+
+@media (min-width: 80em) { .splash .sidebar__right { margin-right: 0; } }
+
+/* Author profile and links ========================================================================== */
+.page-author { clear: both; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; text-align: center; margin-bottom: 1em; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em; }
+
+.page-author::after { clear: both; content: ""; display: table; }
+
+@media (min-width: 64em) { .page-author { display: block; } }
+
+.author__avatar { display: table-cell; vertical-align: top; width: 36px; height: 36px; }
+
+@media (min-width: 64em) { .author__avatar { display: block; width: auto; height: auto; } }
+
+.author__avatar img { max-width: 110px; border-radius: 50%; }
+
+@media (min-width: 64em) { .author__avatar img { padding: 5px; border: 1px solid #f2f3f3; } }
+
+.author__content a { color: inherit; text-decoration: none; }
+
+.author__content a:hover { text-decoration: underline; }
+
+.author__content .page-date, .author__content .read-time { font-family: "Lora", "Nanum+Gothic"; font-style: italic; white-space: nowrap; }
+
+@media (min-width: 64em) { .author__content .read-time { display: block; } }
+
+.author__content .read-time + .page-date::before { content: "\2022"; padding: 0 0.5em; }
+
+@media (min-width: 64em) { .author__content .read-time + .page-date::before { content: ""; padding: 0; } }
+
+.author__name { margin: 0; }
+
+@media (min-width: 64em) { .author__name { margin-top: 10px; margin-bottom: 0.5em; } }
+
+.author__links { display: none; margin: 0 0 1.5em; padding: 0; list-style: none; }
+
+@media (min-width: 64em) { .author__links { display: block; } }
+
+.author__link { display: inline; padding-right: 0.5em; }
+
+@media (min-width: 64em) { .author__link { padding: 0.25em; } }
+
+.page-taxonomies-title { padding-right: 0.5em; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin: 0; }
+
+@media (min-width: 64em) { .page-taxonomies-title { margin: 1.5em 0 0.5em; padding: 0; font-size: 0.75rem; font-weight: bold; text-transform: uppercase; align-items: center; text-align: center; margin: 0; } }
+
+.page-taxonomies { display: inline; margin-right: 1em; padding: 0; list-style: none; text-align: center; }
+
+@media (min-width: 64em) { .page-taxonomies { display: block; margin: 0 0 1.5em 0; } }
+
+.page-taxonomy { display: inline; align-items: center; text-align: center; }
+
+.page-taxonomy:not(:last-child)::after { content: ", "; }
+
+.page-taxonomy a { text-decoration: none; }
+
+.page-taxonomy a:hover { text-decoration: underline; }
+
+/* Wide Pages ========================================================================== */
+.wide .sidebar__right { margin-bottom: 1em; }
+
+@media (min-width: 64em) { .wide .sidebar__right { position: initial; top: initial; right: initial; width: initial; margin-right: initial; padding-left: initial; z-index: initial; } .wide .sidebar__right.sticky { float: none; } }
+
+@media (min-width: 80em) { .wide .sidebar__right { width: initial; margin-right: initial; } }
 
 /*# sourceMappingURL=main.css.map */

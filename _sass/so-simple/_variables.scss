@@ -190,3 +190,7 @@ $link-color-visited: mix(#fff, $link-color, 15%) !default;
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+
+/* paragraph indention */
+$paragraph-indent: false !default; // true, false (default)
+$indent-var: 1.3em !default;
