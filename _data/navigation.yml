@@ -14,7 +14,7 @@ main:
   url: /pets/
 - title: gallery
   url: /photo-gallery-archive/
-- title: "Korea House"
+- title: "Study"
   url: /docs/start-guide/
 - title: Search
   url: /search/
@@ -43,6 +43,12 @@ foo:
 
 # documentation links
 docs:
+  - title: 한옥 공부내용
+    children:
+      - title: "한옥이란 ?"
+        url: /docs/start-guide/
+      - title: "용어정리"
+        url: /docs/hanok term/
   - title: Getting Started
     children:
       - title: "Quick Start Guide"
