@@ -16,7 +16,8 @@ header:
   ##  provider: youtube
 ---
 
-{% include video id="tUVl2iS5yNk" provider="youtube" %}
+{% include responsive-embed url="https://www.youtube-nocookie.com/embed/tUVl2iS5yNk?controls=0&amp;" ratio="16:9" %}
+
 <br><br>
 잠깐의 생각이 머무는 시간  
 

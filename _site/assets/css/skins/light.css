@@ -5,6 +5,7 @@
 /* Compass YIQ Color Contrast https://github.com/easy-designs/yiq-color-contrast ========================================================================== */
 /* ========================================================================== Variables ========================================================================== */
 /* Breakpoint widths */
+/*$small: 320px !default;*/
 /* Fluid type */
 /* Calculate Modular Scale */
 /* small */
@@ -28,6 +29,7 @@
 /* Other */
 /* Breakpoints */
 /* type scale */
+/* headline scale */
 /* serif typefaces */
 /* system typefaces */
 /* Grid ========================================================================== */

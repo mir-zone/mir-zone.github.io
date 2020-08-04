@@ -2,8 +2,8 @@
 title: Have a Nice DAY!
 layout: home
 permalink: /
-entries_layout: grid
-classes: wide
+#entries_layout: grid
+#classes: wide
 hidden: 
 header:
   overlay_color: "#5e616c"
@@ -14,6 +14,7 @@ header:
   ##    url: "/docs/quick-start-guide/"
 excerpt: >
   <br><br><br>
+
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
