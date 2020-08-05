@@ -14,6 +14,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/structure/"
       },{
+        "title": "한옥, 용어 정리",
+        "excerpt":"간살이 (주간-柱間) 기둥사이의 간격을 지칭 (예전엔 보통 8자 기준이었으나, 현재는 9자를 기준으로 한다.기둥높이도 통상 9자를 기준으로 한다.) 내역서 설계도면에 의거 공사에 소용될 자재의 양과 노임을 산출하여 정리한 것. 도면 조감도, 배치도, 평면도, 입면도, 단면도, 앙시도, 지붕평면도, 배선과 하수배관도 등 간가도 (間架圖) 기둥의 위치와 간살이의 치수를 간략히 적은 일종의 평면도. 기본적인...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/hanok%20term/"
+      },{
         "title": "Installation",
         "excerpt":"Install the theme 1. For a new site, install the minimal-mistakes-jekyll gem, remote theme, or fork the Minimal Mistakes repo on GitHub following the steps outlined in the Quick-Start Guide. If you plan to host with GitHub Pages be sure to properly setup jekyll-remote-theme as it is required for the...","categories": [],
         "tags": [],
