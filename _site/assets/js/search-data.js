@@ -1,123 +1,23 @@
 var store = [{
-        "title": "Quick-Start Guide",
-        "excerpt":"Minimal Mistakes has been developed as a Gem-based theme for easier use, and 100% compatible with GitHub Pages when used as a remote theme. If you enjoy this theme, please consider supporting me for developing and maintaining it. Installing the theme If you’re running Jekyll v3.7+ and self-hosting you can...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/quick-start-guide/"
-      },{
         "title": "한옥의 초보 이야기",
-        "excerpt":"한옥이란 ? 우리가 알고 있는 한옥의 이야기를 시작해 봅니다. 준비된 이야기를 서서히 작성하여 봅니다. ","categories": [],
+        "excerpt":"한옥이란 ? 우리가 알고 있는 한옥의 이야기를 시작해 봅니다. 준비된 이야기를 서서히 작성하여 봅니다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/start-guide/"
-      },{
-        "title": "Structure",
-        "excerpt":"Nothing clever here :wink:. Layouts, data files, and includes are all placed in their default locations. Stylesheets and scripts in assets, and a few development related files in the project’s root directory. Please note: If you installed Minimal Mistakes via the Ruby Gem method, theme files like _layouts, _includes, _sass,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/structure/"
       },{
         "title": "한옥, 용어 정리",
         "excerpt":"간살이 (주간-柱間) 기둥사이의 간격을 지칭 (예전엔 보통 8자 기준이었으나, 현재는 9자를 기준으로 한다.기둥높이도 통상 9자를 기준으로 한다.) 내역서 설계도면에 의거 공사에 소용될 자재의 양과 노임을 산출하여 정리한 것. 도면 조감도, 배치도, 평면도, 입면도, 단면도, 앙시도, 지붕평면도, 배선과 하수배관도 등 간가도 (間架圖) 기둥의 위치와 간살이의 치수를 간략히 적은 일종의 평면도. 기본적인...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/hanok%20term/"
       },{
-        "title": "Installation",
-        "excerpt":"Install the theme 1. For a new site, install the minimal-mistakes-jekyll gem, remote theme, or fork the Minimal Mistakes repo on GitHub following the steps outlined in the Quick-Start Guide. If you plan to host with GitHub Pages be sure to properly setup jekyll-remote-theme as it is required for the...","categories": [],
+        "title": "한옥, 용어 정리",
+        "excerpt":"치 목 마름질 마름재질, 가공을 위해서 재목을 치수에 맞게 자르는 일 바심질 마름질한 재목을 다른 부재와 짜 맞추기 위해 깍고 다듬는 일 가심질 끌로 파낸 홈이나 구멍의 거친 표면을 가심끌로 곱게 다듬는 일 새김질 단청을 하거나 모양을 내기 위해서 끌 등으로 부재의 일부분을 파내는 것 바데떼기 부재의 특정부분을 움푹 들어가게...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/installation/"
+        "url": "http://localhost:4000/docs/hanok%20chimok/"
       },{
-        "title": "Upgrading",
-        "excerpt":"If you’re using the Ruby Gem or remote theme versions of Minimal Mistakes, upgrading is fairly painless. To check which version you are currently using, view the source of your built site and you should see something similar to: &lt;!-- Minimal Mistakes Jekyll Theme 4.19.3 by Michael Rose Copyright 2013-2020...","categories": [],
+        "title": "한옥, 용어 정리",
+        "excerpt":"도량형       척도(尺度) - 건물 각 부분의 치수를 정하는 기본이 되는 비례단위                   푼(分) - 약 3mm (10푼 = 1치)                     자(尺) - 약 30.3cm (10자 = 1장)                     치(寸) - 약 3cm (10치 = 1자)                     평(平) - 사방 6자(尺), 약 3.3㎡             ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/upgrading/"
-      },{
-        "title": "Configuration",
-        "excerpt":"Settings that affect your entire site can be changed in Jekyll’s configuration file: _config.yml, found in the root of your project. If you don’t have this file you’ll need to copy or create one using the theme’s default _config.yml as a base. Note: for technical reasons, _config.yml is NOT reloaded...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/configuration/"
-      },{
-        "title": "Overriding Theme Defaults",
-        "excerpt":"When installing the theme as a Ruby Gem its layouts, includes, stylesheets, and other assets are all bundled in the gem. Meaning they’re not easily visible in your project. Each of these files can be modified, but you’ll need to copy the default version into your project first. For example,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/overriding-theme-defaults/"
-      },{
-        "title": "Navigation",
-        "excerpt":"Customize site navigational links through a Jekyll data file. Masthead The masthead links use a “priority plus” design pattern. Meaning, show as many navigation items that will fit horizontally with a toggle to reveal the rest. To define these links add titles and URLs under the main key in _data/navigation.yml:...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/navigation/"
-      },{
-        "title": "UI Text",
-        "excerpt":"Text for UI elements, _layouts, and _includes grouped together as a set of translation keys. This is by no means a full-on i18n solution, but it does help make customizing theme text a bit easier. The English1 main keys in _data/ui-text.yml are translated in the following languages: Brazilian Portuguese (Português...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ui-text/"
-      },{
-        "title": "Authors",
-        "excerpt":"Sites that may have content authored from various individuals can be accommodated by using data files. To assign an author to a post or page that is different from the site author specified in _config.yml: Step 1. Create _data/authors.yml and add authors using the following format. Any variables found under...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/authors/"
-      },{
-        "title": "Layouts",
-        "excerpt":"The bread and butter of any theme. Below you’ll find the layouts included with Minimal Mistakes, what they look like and the type of content they’ve been built for. Default layout The base layout all other layouts inherit from. There’s not much to this layout apart from pulling in several...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/layouts/"
-      },{
-        "title": "Working with Posts",
-        "excerpt":"Posts are stored in the _posts directory and named according to the YEAR-MONTH-DAY-title.MARKUP format as per the usual. Where YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. For example, the following are examples...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/posts/"
-      },{
-        "title": "Working with Pages",
-        "excerpt":"To better organize all of your pages you can centralize them into a single location similar to posts and collections. Step 1: Start by placing pages (.md or .html files) into a _pages directory. Meaningfully naming files should be the goal. Avoid patterns like /about/index.md as it makes distinguishing between...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/pages/"
-      },{
-        "title": "Working with Collections",
-        "excerpt":"Collections like posts and pages work as you’d expect. If you’re new to them be sure to read Jekyll’s documentation. The theme has been built with collections in mind and you will find several examples on the demo site (portfolio, recipes, pets). Collections in the Wild: This set of documentation...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/collections/"
-      },{
-        "title": "Helpers",
-        "excerpt":"You can think of these Jekyll helpers as little shortcuts. Since GitHub Pages doesn’t allow most plugins — custom tags are out. Instead the theme leverages includes to do something similar. Group by array Jekyll Group-By-Array by Max White. A liquid include file for Jekyll that allows an object to...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/helpers/"
-      },{
-        "title": "Utility Classes",
-        "excerpt":"Using the Kramdown Markdown renderer with Jekyll allows you to add block and inline attributes. This is nice if you want to add custom styling to text and image, and still write in Markdown. Jekyll 3: Kramdown is the default for jekyll new sites and those hosted on GitHub Pages....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/utility-classes/"
-      },{
-        "title": "Stylesheets",
-        "excerpt":"The theme’s assets/css/main.css file is built from several SCSS partials located in _sass/ and is structured as follows: minimal-mistakes├── _sass| └── minimal-mistakes| ├── vendor # vendor SCSS partials| | ├── breakpoint # media query mixins| | ├── magnific-popup # Magnific Popup lightbox| | └── susy # Susy grid system| ├──...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/stylesheets/"
-      },{
-        "title": "JavaScript",
-        "excerpt":"The theme’s assets/js/main.min.js script is built from several vendor, jQuery plugins, and other scripts found in assets/js/. minimal mistakes├── assets| ├── js| | ├── plugins| | | ├── gumshoe.js # simple scrollspy| | | ├── jquery.ba-throttle-debounce.js # rate-limit functions| | | ├── jquery.fitvids.js # fluid width video embeds| | |...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/javascript/"
-      },{
-        "title": "History",
-        "excerpt":"4.19.3 Enhancements Update GreedyNav.js to reduce masthead link overflow/shifting on mobile devices. #2551 Replace &lt;section id=\"custom-comments\"&gt;&lt;/section&gt; in comments.html include and add custom_scripts.html include for loading custom comment provider JavaScript in the footer. #2549 Move page date Liquid to include. #2544 Strip trailing whitespace in seo_description. #2542 Improve sticky sidebar’s appearance...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/history/"
-      },{
-        "title": "Contributing",
-        "excerpt":"Having trouble working with the theme? Found a typo in the documentation? Interested in adding a feature or fixing a bug? Then by all means submit an issue or pull request. If this is your first pull request, it may be helpful to read up on the GitHub Flow first....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/contributing/"
-      },{
-        "title": "2.2 Documentation",
-        "excerpt":"Installation Minimal Mistakes now requires Jekyll 3.0. Make sure to run bundle update if you aren’t on the latest version to update all gem dependencies. If you are creating a new Jekyll site using Minimal Mistakes follow these steps: Fork the Minimal Mistakes repo. Clone the repo you just forked...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/docs-2-2/"
-      },{
-        "title": "License",
-        "excerpt":"The MIT License (MIT) Copyright (c) 2013-2020 Michael Rose and contributors Permission is hereby granted, free of charge, to any person obtaining a copyof this software and associated documentation files (the “Software”), to dealin the Software without restriction, including without limitation the rightsto use, copy, modify, merge, publish, distribute, sublicense,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/license/"
-      },{
-        "title": "Terms and Privacy Policy",
-        "excerpt":"Privacy Policy The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. First and foremost, I will never share your email address or any other personal information to anyone without your direct consent....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/terms/"
+        "url": "http://localhost:4000/docs/hanok%20calibre/"
       },{
         "title": "Baz Boom Identity",
         "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],

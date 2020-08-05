@@ -11,3 +11,5 @@ toc: true
 우리가 알고 있는 한옥의 이야기를 시작해 봅니다.
 
 준비된 이야기를 서서히 작성하여 봅니다.
+
+ ![img]({{ site.baseurl }}/assets/images/md-study-01-05-00.jpg "한옥 틀")
