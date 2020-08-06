@@ -55,6 +55,8 @@ docs:
     children:
       - title: "치목"
         url: /docs/hanok chimok/
+      - title: "분류"
+        url: /docs/hanok part/
   - title: Extras
     children:
       - title: ""
