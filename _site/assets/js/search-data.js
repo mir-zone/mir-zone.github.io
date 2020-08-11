@@ -1,6 +1,6 @@
 var store = [{
         "title": "한옥의 초보 이야기",
-        "excerpt":"한옥이란 ? 우리가 알고 있는 한옥의 이야기를 시작해 봅니다. 준비된 이야기를 서서히 작성하여 봅니다.  ","categories": [],
+        "excerpt":"한옥이란 ? 배우고 알아가는 한옥의 이야기를 시작해 봅니다. 준비된 이야기를 살포 시 작성하여 봅니다.  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/start-guide/"
       },{
@@ -14,10 +14,15 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/hanok%20chimok/"
       },{
-        "title": "분 류",
+        "title": "지 붕",
         "excerpt":"지붕 형식에 따른 분류 맞배 지붕 건물의 앞, 뒤로만 지붕을 만드는 것. (측면의 삼각형 벽을 ‘박공’이라 한다.) 우진각 지붕 건물의 네면으로 지붕을 만드는 것. 팔작 지붕 우진각지붕의 양측면을 잘라내고 맞배지붕을 올려놓은 모습의 지붕. (측면의 삼각형 형태의 벽이 보이는데 이를 ‘합각’이라 한다.) 모임 지붕 지붕의 모든 마루가 하나의 꼭지점(중앙)으로 모이는 지붕.(지붕의...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/hanok%20part/"
+        "url": "http://localhost:4000/docs/hanok%20part1/"
+      },{
+        "title": "기 둥",
+        "excerpt":"##기둥(柱) - 보를 받치는 수직의 큰 부재기둥의 단면형태에 따른 구분 (원주, 방주) - 원주(圓柱- 두리기둥, 도랑주) - 단면이 둥근 기둥을 말한다.- 방주(方柱- 모기둥, 모진기둥) - 사모, 육모, 팔모 등으로 각이 지게 만든 기둥 &lt;br&gt;&lt;br&gt;기둥의 위치에 따른 구분 (평주, 고주, 활주 등) - 평주(平柱) - 건물바깥쪽에 위치한 기둥- 고주(高柱) - 건물안쪽에...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/hanok%20part2/"
       },{
         "title": "한옥, 용어 정리",
         "excerpt":"도량형       척도(尺度) - 건물 각 부분의 치수를 정하는 기본이 되는 비례단위                   푼(分) - 약 3mm (10푼 = 1치)                     자(尺) - 약 30.3cm (10자 = 1장)                     치(寸) - 약 3cm (10치 = 1자)                     평(平) - 사방 6자(尺), 약 3.3㎡             ","categories": [],
@@ -123,6 +128,121 @@ var store = [{
         "excerpt":"Oh I dunno. It&#39;s probably been over 15 years since I smudged out a face with a pencil and kneaded eraser. #WIP #Sktchy pic.twitter.com/PwqbMddyVK &mdash; Michael Rose (@mmistakes) February 1, 2017This post tests Twitter Embeds. ","categories": ["Media"],
         "tags": ["content","embeds","media","twitter"],
         "url": "http://localhost:4000/media/post-twitter-embeds/"
+      },{
+        "title": "2010년 10월 22일 이야기",
+        "excerpt":" 형님과 한가로운 점심한때 ~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20101022/"
+      },{
+        "title": "2010년 11월 01일 이야기",
+        "excerpt":" 봉황을 보았다… 소원을 빌어야쥐 ~ 로또대박 ㅎ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20101101/"
+      },{
+        "title": "2011년 04월 08일 이야기",
+        "excerpt":" 길따라 떠나는 길… 이 길은 또 누구의 사색이었을지 ~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110408/"
+      },{
+        "title": "2011년 04월 21일 이야기",
+        "excerpt":" 친구들과 함께한 암사해물탕 즐거운 한때 ^^ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110421/"
+      },{
+        "title": "2011년 04월 22일 이야기 #1",
+        "excerpt":" 비가 옵니다… 바람이 차갑습니다! 공기가 시원합니다 ~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110422/"
+      },{
+        "title": "2011년 04월 22일 이야기 #2",
+        "excerpt":" 창밖으로 비뭇물이 고즈넉하게 내린다… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story2-20110422/"
+      },{
+        "title": "2011년 04월 22일 이야기 #3",
+        "excerpt":" 차 한잔과 비속의 여유… 여기는 고모리691 ~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story3-20110422/"
+      },{
+        "title": "2011년 04월 22일 이야기 #4",
+        "excerpt":" 운치있네요… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story4-20110422/"
+      },{
+        "title": "2011년 04월 22일 이야기 #5",
+        "excerpt":" 하늘을 담은 호수에서!!! 넓은 마음을 품어보자… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story5-20110422/"
+      },{
+        "title": "2011년 05월 13일 이야기 #1",
+        "excerpt":" 오늘도 어김없이 해는 떠오른다… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110513/"
+      },{
+        "title": "2011년 05월 13일 이야기 #2",
+        "excerpt":" 며칠동안 비가 오더니 아직까지 물쌀이 거세다… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story2-20110513/"
+      },{
+        "title": "2011년 05월 14일 이야기 #1",
+        "excerpt":" 꽃 창포… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #2",
+        "excerpt":" 양수리… 세미원의 유명한 장독대 분수~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story2-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #3",
+        "excerpt":" 침목을 거닐며~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story3-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #4",
+        "excerpt":" 모자 거북의 사랑… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story4-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #5",
+        "excerpt":" 소통의 길~ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story5-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #6",
+        "excerpt":" 두물머리… #1 ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story6-20110514/"
+      },{
+        "title": "2011년 05월 14일 이야기 #7",
+        "excerpt":" 두물머리… #2 ‘연인들의 산책로’ ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story7-20110514/"
+      },{
+        "title": "2011년 05월 15일 이야기 #1",
+        "excerpt":" 기산 저수지 작은영토… 방문 #1 ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110515/"
+      },{
+        "title": "2011년 05월 15일 이야기 #2",
+        "excerpt":" 기산 저수지 작은영토… 방문 #2 ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story2-20110515/"
+      },{
+        "title": "2011년 05월 27일 이야기",
+        "excerpt":" 몸보신을 위해 장어 한점 하시죠… ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110527/"
+      },{
+        "title": "2011년 05월 29일 이야기 #1",
+        "excerpt":" 원당 종마공원 #1 ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story-20110529/"
+      },{
+        "title": "2011년 05월 29일 이야기 #2",
+        "excerpt":" 원당 종마공원 #2 ","categories": ["Memory"],
+        "tags": [],
+        "url": "http://localhost:4000/memory/my-story2-20110529/"
       },{
         "title": "Layout: Post with Table Of Contents",
         "excerpt":"Enable table of contents on post or page by adding {% include toc %} where you’d like it to appear. &lt;header&gt; &lt;h4 class=\"nav__title\"&gt; &lt;i class=\"fas fa-file-alt\"&gt;&lt;/i&gt; &lt;/h4&gt; &lt;/header&gt; * Auto generated table of contents {:toc .toc__menu}&lt;/nav&gt; &lt;/aside&gt; HTML Elements Below is are some HTML elements. Check the source code to...","categories": ["Layout"],
