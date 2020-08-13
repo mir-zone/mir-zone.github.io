@@ -49,16 +49,20 @@ docs:
         url: /docs/start-guide/
   - title: Customization
     children:
-      - title: "용어정리"
+      - title: "용어 정리"
         url: /docs/hanok term/
   - title: Content
     children:
-      - title: "치목"
+      - title: "치 목"
         url: /docs/hanok chimok/
-      - title: "지붕"
+      - title: "지 붕"
         url: /docs/hanok part1/
-      - title: "기둥"
+      - title: "기 둥"
         url: /docs/hanok part2/
+      - title: "보"
+        url: /docs/hanok part3/
+      - title: "도리"
+        url: /docs/hanok part4/
   - title: Extras
     children:
       - title: ""
@@ -67,6 +71,8 @@ docs:
     children:
       - title: "도량형"
         url: /docs/hanok calibre/
+      - title: "공 구"
+        url: /docs/hanok tool/
 
 
 # sidebar navigation list sample
