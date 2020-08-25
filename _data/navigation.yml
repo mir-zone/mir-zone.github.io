@@ -51,22 +51,28 @@ docs:
     children:
       - title: "용어 정리"
         url: /docs/hanok term/
-  - title: Content
-    children:
       - title: "치 목"
         url: /docs/hanok chimok/
+  - title: Content
+    children:
       - title: "지 붕"
-        url: /docs/hanok part1/
+        url: /docs/hanok part11/
       - title: "기 둥"
-        url: /docs/hanok part2/
-      - title: "보"
-        url: /docs/hanok part3/
-      - title: "도리"
-        url: /docs/hanok part4/
+        url: /docs/hanok part12/
+      - title: "보, 도리"
+        url: /docs/hanok part13/
+      - title: "장여"
+        url: /docs/hanok part14/
+      - title: "벽, 문"
+        url: /docs/hanok part15/
+      - title: "마루, 난간"
+        url: /docs/hanok part19/
   - title: Extras
     children:
       - title: "작 업"
         url: /docs/hanok part21/
+      - title: "격 식"
+        url: /docs/hanok part29/
   - title: Meta
     children:
       - title: "도량형"
